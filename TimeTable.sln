@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EroniX.Core", "EroniX.Core\EroniX.Core.csproj", "{0354D967-2DF9-498B-9CCB-E27437A3B572}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTableDesigner.DataAccess", "TimeTable.DataAccess\TimeTableDesigner.DataAccess.csproj", "{86E131AB-0D97-4024-ADFC-78BE31B21733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTableDesigner.Shared", "TimeTable.Shared\TimeTableDesigner.Shared.csproj", "{CABD7B28-C75C-418F-B6E2-3120725F533E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTableDesigner.Logic", "TimeTable.Logic\TimeTableDesigner.Logic.csproj", "{CDF990C0-1D27-4A55-9B87-4D12A1DD791A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTableDesigner.Test", "TimeTable.Test\TimeTableDesigner.Test.csproj", "{D752AD51-86FB-4707-ABB7-09B36D9FA93C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeTableDesigner.Web", "TimeTable.Web\TimeTableDesigner.Web.csproj", "{ACB27AD8-7A10-4F17-A763-D82300AEBD0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0354D967-2DF9-498B-9CCB-E27437A3B572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0354D967-2DF9-498B-9CCB-E27437A3B572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0354D967-2DF9-498B-9CCB-E27437A3B572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0354D967-2DF9-498B-9CCB-E27437A3B572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E131AB-0D97-4024-ADFC-78BE31B21733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E131AB-0D97-4024-ADFC-78BE31B21733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E131AB-0D97-4024-ADFC-78BE31B21733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E131AB-0D97-4024-ADFC-78BE31B21733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CABD7B28-C75C-418F-B6E2-3120725F533E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABD7B28-C75C-418F-B6E2-3120725F533E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABD7B28-C75C-418F-B6E2-3120725F533E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABD7B28-C75C-418F-B6E2-3120725F533E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF990C0-1D27-4A55-9B87-4D12A1DD791A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF990C0-1D27-4A55-9B87-4D12A1DD791A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF990C0-1D27-4A55-9B87-4D12A1DD791A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF990C0-1D27-4A55-9B87-4D12A1DD791A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D752AD51-86FB-4707-ABB7-09B36D9FA93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D752AD51-86FB-4707-ABB7-09B36D9FA93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D752AD51-86FB-4707-ABB7-09B36D9FA93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D752AD51-86FB-4707-ABB7-09B36D9FA93C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB27AD8-7A10-4F17-A763-D82300AEBD0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB27AD8-7A10-4F17-A763-D82300AEBD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB27AD8-7A10-4F17-A763-D82300AEBD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB27AD8-7A10-4F17-A763-D82300AEBD0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68FD0A53-5772-4E21-97CC-C9F4EE3B66BF}
+	EndGlobalSection
+EndGlobal

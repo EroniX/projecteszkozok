@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CABD7B28-C75C-418F-B6E2-3120725F533E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TimeTableDesigner.Shared</RootNamespace>
+    <AssemblyName>TimeTableDesigner.Shared</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack, Version=1.5.1.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.5.1\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Identity.Stores">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.identity.stores\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Identity.Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Access\ITimeTableAppContextProvider.cs" />
+    <Compile Include="Access\Repository\IScheduleRepository.cs" />
+    <Compile Include="Access\Repository\ICourseRepository.cs" />
+    <Compile Include="Access\Repository\ISemesterRepository.cs" />
+    <Compile Include="Access\Repository\IUserRepository.cs" />
+    <Compile Include="Access\Service\IWebDataService.cs" />
+    <Compile Include="Access\Service\ITimeTableService.cs" />
+    <Compile Include="Access\UnitOfWork\ITimeTableUnitOfWork.cs" />
+    <Compile Include="Access\UnitOfWork\ITimeTableUnitOfWorkFactory.cs" />
+    <Compile Include="Entity\Database\Course.cs" />
+    <Compile Include="Entity\Database\TimeTable.cs" />
+    <Compile Include="Entity\Database\User.cs" />
+    <Compile Include="Entity\Domain\CourseTime.cs" />
+    <Compile Include="Entity\Domain\Interval.cs" />
+    <Compile Include="Entity\Domain\Time.cs" />
+    <Compile Include="Entity\Web\WebCourse.cs" />
+    <Compile Include="Entity\Web\WebDepartment.cs" />
+    <Compile Include="Entity\Web\IWebEntity.cs" />
+    <Compile Include="Entity\Web\WebSemester.cs" />
+    <Compile Include="Enum\CourseDay.cs" />
+    <Compile Include="Enum\CourseType.cs" />
+    <Compile Include="Enum\Limit.cs" />
+    <Compile Include="Enum\SearchType.cs" />
+    <Compile Include="Helper\Converter\StringToList\HtmlDropDownToListConverter.cs" />
+    <Compile Include="Helper\Converter\StringToList\HtmlTableToListConverter.cs" />
+    <Compile Include="Helper\Converter\StringToList\IStringToListConverter.cs" />
+    <Compile Include="Helper\Utility\EnumUtility.cs" />
+    <Compile Include="Helper\Web\IWebHtmlReader.cs" />
+    <Compile Include="Helper\Web\WebHtmlReader.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EroniX.Core\EroniX.Core.csproj">
+      <Project>{0354d967-2df9-498b-9ccb-e27437a3b572}</Project>
+      <Name>EroniX.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

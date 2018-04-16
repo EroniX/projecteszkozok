@@ -1,0 +1,37 @@
+﻿@using TimeTableDesigner.Shared.Helper.Utility
+@model System.Collections.Generic.IEnumerable<TimeTableDesigner.Shared.Entity.Web.WebCourse>
+    
+<table class="table">
+    <tr>
+        <th>@Html.DisplayNameFor(n => n.Name)</th>
+        <th>@Html.DisplayNameFor(n => n.Id)</th>
+        <th>@Html.DisplayNameFor(n => n.Time)</th>
+        <th>@Html.DisplayNameFor(n => n.Room)</th>
+        <th>@Html.DisplayNameFor(n => n.Weeks)</th>
+        <th>@Html.DisplayNameFor(n => n.Description)</th>
+        <th>@Html.DisplayNameFor(n => n.Type)</th>
+        <th>@Html.DisplayNameFor(n => n.Group)</th>
+        <th>@Html.DisplayNameFor(n => n.HeadCount)</th>
+        <th>@Html.DisplayNameFor(n => n.Number)</th>
+        <th>@Html.DisplayNameFor(n => n.Teachers)</th>
+    </tr>
+
+    @foreach (var webCourse in Model)
+    {
+        <tr>
+            <td>@webCourse.Name</td>
+            <td>@webCourse.Id</td>
+            <td>@webCourse.Time</td>
+            <td>@webCourse.Room</td>
+            <td>@string.Join(",", webCourse.Weeks)</td>
+            <td>@webCourse.Description</td>
+            <td>@EnumUtility.GetDescriptionFromEnumValue(webCourse.Type)</td>
+            <td>@webCourse.Group</td>
+            <td>@webCourse.HeadCount</td>
+            <td>@webCourse.Number</td>
+            <td>@string.Join(",", webCourse.Teachers)</td>
+        </tr>
+    }
+</table>
+
+

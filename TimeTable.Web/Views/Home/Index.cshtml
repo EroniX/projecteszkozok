@@ -1,0 +1,160 @@
+﻿@model TimeTableDesigner.Web.Models.CourseViewModels.CourseViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<hr/>
+<div class="row">
+    <div class="col-md-6">
+        <div class="jumbotron">
+            <h1>Szakirány</h1>
+            <p class="lead">Keresés a meghírdetett kurzusok közt szakirány alapján.</p>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    @Html.LabelFor(n => n.Department)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    @Html.DropDownListFor(n => n.Department, Model.Departments, new { @class = "form-control" })
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    @Html.LabelFor(n => n.Semester)
+                </div>
+                <div class="col-md-3">
+                    @Html.LabelFor(n => n.Limit)
+                </div>
+                <div class="col-md-3">
+                    @Html.LabelFor(n => n.Grade)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    @Html.DropDownListFor(n => n.Semester, Model.Semesters, new {@class = "form-control"})
+                </div>
+                <div class="col-md-3">
+                    @Html.DropDownListFor(n => n.Limit, Model.Limits, new {@class = "form-control"})
+                </div>
+                <div class="col-md-3">
+                    @Html.DropDownListFor(n => n.Grade, Model.Grades, new {@class = "form-control"})
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <input id="search-by-department" search-by="3" class="btn btn-primary btn-lg" value="Keresés" type="button" />
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-6">
+        <div class="jumbotron">
+            <h1>Egyéb adatok</h1>
+            <p class="lead">Keresés kurzusnév, kurzuskód vagy tanár alapján.</p>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    @Html.LabelFor(n => n.SearchTerm)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    @Html.TextBoxFor(n => n.SearchTerm, new { @class = "form-control", placeholder = "Pl: Analízis <3" })
+                   
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    @Html.LabelFor(n => n.SearchType)
+                </div>
+                <div class="col-md-5">
+                    @Html.LabelFor(n => n.Semester)
+                </div>
+                <div class="col-md-3">
+                    @Html.LabelFor(n => n.Limit)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    @Html.DropDownListFor(n => n.SearchType, Model.SearchTypes, new {@class = "form-control"})
+                </div>
+                <div class="col-md-5">
+                    @Html.DropDownListFor(n => n.Semester, Model.Semesters, new {@class = "form-control"})
+                </div>
+                <div class="col-md-3">
+                    @Html.DropDownListFor(n => n.Limit, Model.Limits, new {@class = "form-control"})
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <input id="search-by-others" class="btn btn-primary btn-lg" value="Keresés" type="button" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr/>
+<div id="course-holder">
+</div>
+
+@section Scripts
+{
+    <script type="text/javascript">
+        $(function() {
+            $("#search-by-others").on("click",
+                function() {
+                    $.ajax({
+                        url: '@Url.Action("Search")',
+                        dataType: 'html',
+                        type: 'GET',
+                        data:
+                        {
+                            SearchTerm: $("#SearchTerm").val(),
+                            Semester: $("#Semester").val(),
+                            SearchType: $("#SearchType").val(),
+                            Limit: $("#Limit").val()
+                        },
+                        success: function (data) {
+                            $("#course-holder")
+                                .hide(100)
+                                .empty()
+                                .append(data)
+                                .show(100);
+                        }
+                    });
+                });
+
+            $("#search-by-department").on("click",
+                function() {
+                    $.ajax({
+                        url: '@Url.Action("Search")',
+                        dataType: 'html',
+                        type: 'GET',
+                        data:
+                        {
+                            Department: $("#Department").val(),
+                            Semester: $("#Semester").val(),
+                            Grade: $("#Grade").val(),
+                            SearchType: 3,
+                            Limit: $("#Limit").val()
+                        },
+                        success: function (data) {
+                            $("#course-holder")
+                                .hide(100)
+                                .empty()
+                                .append(data)
+                                .show(100);
+                        }
+                    });
+                });
+        });
+    </script>
+}

@@ -1,0 +1,14 @@
+﻿namespace TimeTableDesigner.Shared.Entity.Web
+{
+    public class WebDepartment : IWebEntity
+    {
+        public string Id { get; set; }
+        public string Name { get; set; }
+
+        public void Initialize(string[] values)
+        {
+            Id = values[0].Trim();
+            Name = values[1].Trim();
+        }
+    }
+}
