@@ -70,7 +70,7 @@ namespace TimeTableDesigner.Web
                 Config.Create(Configuration.AsEnumerable())
             )));
             services.AddTransient<ICourseRepository, CourseRepository>();
-            services.AddTransient<ISemesterRepository, SemesterRepository>();
+            services.AddTransient<ITimeTableRepository, TimeTableRepository>();
             services.AddTransient<IUserRepository, UserRepository>();
 
             // Unit of Work

@@ -50,7 +50,7 @@
     <Compile Include="Access\ITimeTableAppContextProvider.cs" />
     <Compile Include="Access\Repository\IScheduleRepository.cs" />
     <Compile Include="Access\Repository\ICourseRepository.cs" />
-    <Compile Include="Access\Repository\ISemesterRepository.cs" />
+    <Compile Include="Access\Repository\ITimeTableRepository.cs" />
     <Compile Include="Access\Repository\IUserRepository.cs" />
     <Compile Include="Access\Service\IWebDataService.cs" />
     <Compile Include="Access\Service\ITimeTableService.cs" />

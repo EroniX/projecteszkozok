@@ -9770,11 +9770,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\EroniX\\Documents\\visual studio 2017\\Projects\\TimeTable\\TimeTable.Web\\TimeTableDesigner.Web.csproj",
+      "projectUniqueName": "C:\\Users\\EroniX\\Documents\\timetabledesigner\\TimeTable.Web\\TimeTableDesigner.Web.csproj",
       "projectName": "TimeTableDesigner.Web",
-      "projectPath": "C:\\Users\\EroniX\\Documents\\visual studio 2017\\Projects\\TimeTable\\TimeTable.Web\\TimeTableDesigner.Web.csproj",
+      "projectPath": "C:\\Users\\EroniX\\Documents\\timetabledesigner\\TimeTable.Web\\TimeTableDesigner.Web.csproj",
       "packagesPath": "C:\\Users\\EroniX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EroniX\\Documents\\visual studio 2017\\Projects\\TimeTable\\TimeTable.Web\\obj\\",
+      "outputPath": "C:\\Users\\EroniX\\Documents\\timetabledesigner\\TimeTable.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9793,14 +9793,14 @@
       "frameworks": {
         "net461": {
           "projectReferences": {
-            "C:\\Users\\EroniX\\Documents\\visual studio 2017\\Projects\\TimeTable\\TimeTable.Logic\\TimeTableDesigner.Logic.csproj": {
-              "projectPath": "C:\\Users\\EroniX\\Documents\\visual studio 2017\\Projects\\TimeTable\\TimeTable.Logic\\TimeTableDesigner.Logic.csproj"
+            "C:\\Users\\EroniX\\Documents\\timetabledesigner\\TimeTable.Logic\\TimeTableDesigner.Logic.csproj": {
+              "projectPath": "C:\\Users\\EroniX\\Documents\\timetabledesigner\\TimeTable.Logic\\TimeTableDesigner.Logic.csproj"
             },
-            "C:\\Users\\EroniX\\Documents\\visual studio 2017\\Projects\\TimeTable\\TimeTable.DataAccess\\TimeTableDesigner.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\EroniX\\Documents\\visual studio 2017\\Projects\\TimeTable\\TimeTable.DataAccess\\TimeTableDesigner.DataAccess.csproj"
+            "C:\\Users\\EroniX\\Documents\\timetabledesigner\\TimeTable.DataAccess\\TimeTableDesigner.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\EroniX\\Documents\\timetabledesigner\\TimeTable.DataAccess\\TimeTableDesigner.DataAccess.csproj"
             },
-            "C:\\Users\\EroniX\\Documents\\visual studio 2017\\Projects\\TimeTable\\TimeTable.Shared\\TimeTableDesigner.Shared.csproj": {
-              "projectPath": "C:\\Users\\EroniX\\Documents\\visual studio 2017\\Projects\\TimeTable\\TimeTable.Shared\\TimeTableDesigner.Shared.csproj"
+            "C:\\Users\\EroniX\\Documents\\timetabledesigner\\TimeTable.Shared\\TimeTableDesigner.Shared.csproj": {
+              "projectPath": "C:\\Users\\EroniX\\Documents\\timetabledesigner\\TimeTable.Shared\\TimeTableDesigner.Shared.csproj"
             }
           }
         }
