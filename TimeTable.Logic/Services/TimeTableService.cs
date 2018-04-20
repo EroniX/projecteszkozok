@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using EroniX.Core.Audit;
 using EroniX.Core.Services;
 using TimeTableDesigner.Shared.Access;
@@ -17,11 +18,11 @@ namespace TimeTableDesigner.Logic.Services
         {
         }
 
-        public IEnumerable<TimeTable> ListTimeTablesForUser(int userId)
+        public async Task<IEnumerable<TimeTable>> ListTimeTablesForUserAsync(string userId)
         {
             using (var uow = UoWFactory.Create())
             {
-                uow.
+                return await uow.TimeTableRepository.ListAsync(n => n.UserId == userId);
             }
         }
     }

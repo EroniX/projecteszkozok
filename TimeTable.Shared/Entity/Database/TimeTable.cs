@@ -20,9 +20,13 @@ namespace TimeTableDesigner.Shared.Entity.Database
         [StringLength(256)]
         public string Name { get; set; }
 
+        [Required]
+        [StringLength(256)]
+        public string Semester { get; set; }
+
         public bool Active { get; set; }
 
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         
         public virtual ICollection<Course> Courses { get; set; }
 

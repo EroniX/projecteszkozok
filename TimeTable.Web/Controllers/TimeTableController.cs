@@ -30,6 +30,8 @@ namespace TimeTableDesigner.Web.Controllers
         [Authorize]
         public async Task<IActionResult> Index()
         {
+            var user = User;
+            var timeTables = await _timeTableService.ListTimeTablesForUserAsync(_userManager.GetUserId(User));
             return View();
         }
     }
