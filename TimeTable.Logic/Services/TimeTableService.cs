@@ -10,14 +10,20 @@ using TimeTableDesigner.Shared.Entity.Database;
 
 namespace TimeTableDesigner.Logic.Services
 {
+
     public class TimeTableService : ServiceBaseWithUoWFactory<ITimeTableAppContextProvider, ITimeTableUnitOfWorkFactory,
         ITimeTableUnitOfWork>, ITimeTableService
     {
-        public TimeTableService(ITimeTableUnitOfWorkFactory uoWFactory, ITimeTableAppContextProvider appContextProvider, ILogger logger) 
+        public TimeTableService(ITimeTableUnitOfWorkFactory uoWFactory, ITimeTableAppContextProvider appContextProvider, ILogger logger)
             : base(uoWFactory, appContextProvider, logger)
         {
         }
 
+        /// <summary>
+        /// Egy adott felhasználóhoz tartozó órarend lekérdezése
+        /// </summary>
+        /// <param name="userId">A felhasználó azonosítója</param>
+        /// <returns>TimeTable objektumokat tartalmazó lista</returns>
         public async Task<IEnumerable<TimeTable>> ListTimeTablesForUserAsync(string userId)
         {
             using (var uow = UoWFactory.Create())
