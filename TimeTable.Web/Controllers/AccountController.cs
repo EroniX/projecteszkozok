@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using TimeTableDesigner.Shared.Entity.Domain;
 using TimeTableDesigner.Web.Extensions;
 using TimeTableDesigner.Web.Models;
 using TimeTableDesigner.Web.Models.AccountViewModels;

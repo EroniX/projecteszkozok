@@ -8,8 +8,6 @@ namespace TimeTableDesigner.Shared.Access.Service
 {
     public interface IWebDataService
     {
-        WebCourse FindCourseById(string id, string semester);
-
         IEnumerable<SearchType> ListSearchTypes();
 
         IEnumerable<Limit> ListLimits();
@@ -21,15 +19,15 @@ namespace TimeTableDesigner.Shared.Access.Service
         Task<IEnumerable<WebSemester>> ListSemestersAsync();
 
         Task<IEnumerable<WebCourse>> ListWebCoursesByDepartmentAsync(string department, string semester,
-            int grade, Limit limit, Func<WebCourse, bool> predicate = null);
+            int grade, Limit limit = Limit.All, Func<WebCourse, bool> predicate = null);
 
         Task<IEnumerable<WebCourse>> ListWebCoursesByNameAsync(string id, string semester,
-            Limit limit, Func<WebCourse, bool> predicate = null);
+            Limit limit = Limit.All, Func<WebCourse, bool> predicate = null);
 
         Task<IEnumerable<WebCourse>> ListWebCoursesByIdAsync(string id, string semester,
-            Limit limit, Func<WebCourse, bool> predicate = null);
+            Limit limit = Limit.All, Func<WebCourse, bool> predicate = null);
 
         Task<IEnumerable<WebCourse>> ListWebCoursesByTeacherAsync(string teacher, string semester,
-            Limit limit, Func<WebCourse, bool> predicate = null);
+            Limit limit = Limit.All, Func<WebCourse, bool> predicate = null);
     }
 }
