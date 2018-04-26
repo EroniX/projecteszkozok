@@ -19,9 +19,10 @@ namespace TimeTableDesigner.Logic.Designer.Engine
             _webCourseDictionary = webCourseDictionary;
         }
 
-        private IList<IDictionary<string, IEnumerable<WebCourse>>> Analyze()
+        private IList<IDictionary<string, IEnumerable<WebCourse>>> PreProcess()
         {
-            
+            var list = new List<IDictionary<string, List<WebCourse>>>();
+            return null;
         }
 
         public TimeTable Design(ITimeTablePreference preference)

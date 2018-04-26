@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Designer\Engine\Model\EngineSourceModel.cs" />
     <Compile Include="Designer\Engine\Model\TimeTableEngineModel.cs" />
     <Compile Include="Designer\Engine\TimeTableDesignerEngine.cs" />
     <Compile Include="Designer\Preferences\ITimeTablePreference.cs" />

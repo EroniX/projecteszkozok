@@ -2,7 +2,7 @@
 
 namespace TimeTableDesigner.Shared.Entity.Domain
 {
-    public class Time
+    public class Time : IComparable
     {
         public int Hour { get; set; }
         public int Minute { get; set; }
@@ -24,6 +24,36 @@ namespace TimeTableDesigner.Shared.Entity.Domain
         public override string ToString()
         {
             return $"{DisplayHour}:{DisplayMinute}";
+        }
+
+        public int CompareTo(object obj)
+        {
+            if (obj == null)
+            {
+                throw new ArgumentNullException();
+            }
+
+            var time = obj as Time;
+            if (time == null)
+            {
+                throw new ArgumentException();
+            }
+
+            if (time.Hour != Hour)
+            {
+                return time.Hour < Hour
+                    ? 1
+                    : -1;
+            }
+
+            if (time.Minute == Minute)
+            {
+                return 0;
+            }
+
+            return time.Minute < Minute
+                ? 1
+                : -1;
         }
 
         public static Time ToTime(string time)

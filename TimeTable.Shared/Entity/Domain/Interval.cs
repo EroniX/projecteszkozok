@@ -18,6 +18,20 @@ namespace TimeTableDesigner.Shared.Entity.Domain
             return $"{From}-{To}";
         }
 
+        public bool IsInInterval(Time time, bool withBorder = true)
+        {
+            if (withBorder)
+            {
+                return From.CompareTo(time) != -1 && To.CompareTo(time) != 1;
+            }
+            return time.CompareTo(From) == 1 && time.CompareTo(To) == -1;
+        }
+
+        public bool HaveIntersection(Interval interval, bool withBorder = true)
+        {
+            return IsInInterval(interval.From, withBorder) || IsInInterval(interval.To, withBorder);
+        }
+
         public static Interval ToInterval(string interval)
         {
             if (interval == null)
