@@ -1,6 +1,6 @@
 ﻿@model TimeTableDesigner.Web.Models.CourseViewModels.CourseViewModel
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Főoldal";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <hr/>
@@ -13,33 +13,21 @@
             <div class="row">
                 <div class="col-md-12">
                     @Html.LabelFor(n => n.Department)
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    @Html.DropDownListFor(n => n.Department, Model.Departments, new { @class = "form-control" })
+                    @Html.DropDownListFor(n => n.Department, Model.Departments, new {@class = "form-control"})
                 </div>
             </div>
             <hr>
             <div class="row">
                 <div class="col-md-6">
                     @Html.LabelFor(n => n.Semester)
-                </div>
-                <div class="col-md-3">
-                    @Html.LabelFor(n => n.Limit)
-                </div>
-                <div class="col-md-3">
-                    @Html.LabelFor(n => n.Grade)
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
                     @Html.DropDownListFor(n => n.Semester, Model.Semesters, new {@class = "form-control"})
                 </div>
                 <div class="col-md-3">
+                    @Html.LabelFor(n => n.Limit)
                     @Html.DropDownListFor(n => n.Limit, Model.Limits, new {@class = "form-control"})
                 </div>
                 <div class="col-md-3">
+                    @Html.LabelFor(n => n.Grade)
                     @Html.DropDownListFor(n => n.Grade, Model.Grades, new {@class = "form-control"})
                 </div>
             </div>
@@ -60,34 +48,21 @@
             <div class="row">
                 <div class="col-md-12">
                     @Html.LabelFor(n => n.SearchTerm)
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    @Html.TextBoxFor(n => n.SearchTerm, new { @class = "form-control", placeholder = "Pl: Analízis <3" })
-                   
+                    @Html.TextBoxFor(n => n.SearchTerm, new {@class = "form-control", placeholder = "Pl: Analízis <3"})
                 </div>
             </div>
             <hr>
             <div class="row">
                 <div class="col-md-4">
                     @Html.LabelFor(n => n.SearchType)
-                </div>
-                <div class="col-md-5">
-                    @Html.LabelFor(n => n.Semester)
-                </div>
-                <div class="col-md-3">
-                    @Html.LabelFor(n => n.Limit)
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
                     @Html.DropDownListFor(n => n.SearchType, Model.SearchTypes, new {@class = "form-control"})
                 </div>
                 <div class="col-md-5">
-                    @Html.DropDownListFor(n => n.Semester, Model.Semesters, new {@class = "form-control"})
+                    @Html.LabelFor(n => n.Semester)
+                    @Html.DropDownListFor(n => n.SearchType, Model.Semesters, new {@class = "form-control"})
                 </div>
                 <div class="col-md-3">
+                    @Html.LabelFor(n => n.Limit)
                     @Html.DropDownListFor(n => n.Limit, Model.Limits, new {@class = "form-control"})
                 </div>
             </div>
@@ -122,7 +97,7 @@
                             SearchType: $("#SearchType").val(),
                             Limit: $("#Limit").val()
                         },
-                        success: function (data) {
+                        success: function(data) {
                             $("#course-holder")
                                 .hide(100)
                                 .empty()
@@ -146,7 +121,7 @@
                             SearchType: 3,
                             Limit: $("#Limit").val()
                         },
-                        success: function (data) {
+                        success: function(data) {
                             $("#course-holder")
                                 .hide(100)
                                 .empty()

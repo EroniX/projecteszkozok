@@ -46,14 +46,7 @@ namespace TimeTableDesigner.Shared.Entity.Domain
                     : -1;
             }
 
-            if (time.Minute == Minute)
-            {
-                return 0;
-            }
-
-            return time.Minute < Minute
-                ? 1
-                : -1;
+            return time.Minute.CompareTo(Minute);
         }
 
         public static Time ToTime(string time)

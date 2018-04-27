@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using TimeTableDesigner.Shared.Access.Service;
-using TimeTableDesigner.Shared.Entity.Domain;
 using TimeTableDesigner.Web.Models;
 
 namespace TimeTableDesigner.Web.Controllers
@@ -12,17 +11,16 @@ namespace TimeTableDesigner.Web.Controllers
     public class TimeTableController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
-        private readonly SignInManager<ApplicationUser> _signInManager;
 
         private readonly IWebDataService _webDataService;
         private readonly ITimeTableService _timeTableService;
 
         public TimeTableController(
-            UserManager<ApplicationUser> userManager,
-            SignInManager<ApplicationUser> signInManager, 
+            UserManager<ApplicationUser> userManager, 
             IWebDataService webDataService, 
             ITimeTableService timeTableService)
         {
+            _userManager = userManager;
             _webDataService = webDataService;
             _timeTableService = timeTableService;
         }
@@ -30,7 +28,6 @@ namespace TimeTableDesigner.Web.Controllers
         [Authorize]
         public async Task<IActionResult> Index()
         {
-            var user = User;
             var timeTables = await _timeTableService.ListTimeTablesForUserAsync(_userManager.GetUserId(User));
             return View();
         }

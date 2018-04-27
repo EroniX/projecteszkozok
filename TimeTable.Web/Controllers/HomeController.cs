@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using System.Diagnostics;
+using System.ComponentModel;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using TimeTableDesigner.Shared.Access.Service;
@@ -7,7 +7,6 @@ using TimeTableDesigner.Shared.Entity.Web;
 using TimeTableDesigner.Shared.Enum;
 using TimeTableDesigner.Shared.Helper.Utility;
 using TimeTableDesigner.Web.Helpers;
-using TimeTableDesigner.Web.Models;
 using TimeTableDesigner.Web.Models.CourseViewModels;
 
 namespace TimeTableDesigner.Web.Controllers
@@ -86,13 +85,15 @@ namespace TimeTableDesigner.Web.Controllers
                         viewModel.Limit
                     );
                     break;
-                default:
+                case SearchType.Teacher:
                     courses = await _webDataService.ListWebCoursesByTeacherAsync(
                         viewModel.SearchTerm,
                         viewModel.Semester,
                         viewModel.Limit
                     );
                     break;
+                default:
+                    throw new InvalidEnumArgumentException();
             }
 
             return PartialView("_CoursesPartialView", courses);

@@ -1,4 +1,3 @@
-using Microsoft.EntityFrameworkCore;
 using TimeTableDesigner.Shared.Entity.Database;
 
 namespace TimeTableDesigner.DataAccess.DataContext
