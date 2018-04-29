@@ -8,6 +8,7 @@ namespace TimeTableDesigner.DataAccess.UnitOfWork
 {
     public class TimeTableUnitOfWork : UnitOfWork<TimeTableContext>, ITimeTableUnitOfWork
     {
+        private IUserRepository _userRepository;
         private ITimeTableRepository _timeTableRepository;
         private ICourseRepository _courseRepository;
 
@@ -22,6 +23,9 @@ namespace TimeTableDesigner.DataAccess.UnitOfWork
         {
             return new TimeTableContext(connectionString);
         }
+
+        public IUserRepository UserRepository =>
+            _userRepository = _userRepository ?? new UserRepository(Context);
 
         public ITimeTableRepository TimeTableRepository => 
             _timeTableRepository = _timeTableRepository ?? new TimeTableRepository(Context);

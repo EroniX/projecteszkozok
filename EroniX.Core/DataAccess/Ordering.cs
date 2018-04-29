@@ -4,18 +4,18 @@ using System.Linq.Expressions;
 
 namespace EroniX.Core.DataAccess
 {
-    public class Ordering<E, Key> : IOrdering<E>
+    public class Ordering<TEntity, TKey> : IOrdering<TEntity>
     {
-        private readonly Expression<Func<E, Key>> _orderFunc;
+        private readonly Expression<Func<TEntity, TKey>> _orderFunc;
         private readonly Direction _direction;
 
-        public Ordering(Expression<Func<E, Key>> orderFunc, Direction direction = Direction.Ascending)
+        public Ordering(Expression<Func<TEntity, TKey>> orderFunc, Direction direction = Direction.Ascending)
         {
             _orderFunc = orderFunc;
             _direction = direction;
         }
 
-        IQueryable<E> IOrdering<E>.ApplyOrdering(IQueryable<E> @where, bool isFirst)
+        IQueryable<TEntity> IOrdering<TEntity>.ApplyOrdering(IQueryable<TEntity> @where, bool isFirst)
         {
             if (!isFirst)
             {
@@ -26,8 +26,8 @@ namespace EroniX.Core.DataAccess
             else
             {
                 return _direction == Direction.Ascending
-                    ? ((IOrderedQueryable<E>)where).ThenBy(_orderFunc)
-                    : ((IOrderedQueryable<E>)where).ThenByDescending(_orderFunc);
+                    ? ((IOrderedQueryable<TEntity>)where).ThenBy(_orderFunc)
+                    : ((IOrderedQueryable<TEntity>)where).ThenByDescending(_orderFunc);
             }
         }
     }

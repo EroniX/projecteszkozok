@@ -7,41 +7,41 @@ using System.Threading.Tasks;
 
 namespace EroniX.Core.DataAccess
 {
-    public abstract class Repository<E> : IRepository<E>
-        where E : class
+    public abstract class Repository<TEntity> : IRepository<TEntity>
+        where TEntity : class
     {
         protected DbContext Context;
 
-        public IQueryable<E> DbSet => Context.Set<E>();
+        public IQueryable<TEntity> DbSet => Context.Set<TEntity>();
 
         protected Repository(DbContext dbContext)
         {
             Context = dbContext;
         }
 
-        public virtual void Add(E entity)
+        public virtual void Add(TEntity entity)
         {
-            Context.Set<E>().Add(entity);
+            Context.Set<TEntity>().Add(entity);
         }
 
-        public virtual void Update(E entity)
+        public virtual void Update(TEntity entity)
         {
             Context.Entry(entity).State = EntityState.Modified;
         }
 
-        public virtual void Delete(E entity)
+        public virtual void Delete(TEntity entity)
         {
             Context.Entry(entity).State = EntityState.Deleted;
         }
 
-        public virtual void Attach(E entity)
+        public virtual void Attach(TEntity entity)
         {
-            Context.Set<E>().Attach(entity);
+            Context.Set<TEntity>().Attach(entity);
         }
 
-        public virtual IEnumerable<E> List(Expression<Func<E, bool>> predicate = null, Includes<E> includes = null, IOrdering<E>[] orderBys = null, int? skip = null, int? take = null, bool noTracking = false, bool keepLazy = false)
+        public virtual IEnumerable<TEntity> List(Expression<Func<TEntity, bool>> predicate = null, Includes<TEntity> includes = null, IOrdering<TEntity>[] orderBys = null, int? skip = null, int? take = null, bool noTracking = false, bool keepLazy = false)
         {
-            var where = Context.Set<E>().Where(predicate ?? (x => true));
+            var where = Context.Set<TEntity>().Where(predicate ?? (x => true));
 
             if(includes!= null)
             {
@@ -72,9 +72,9 @@ namespace EroniX.Core.DataAccess
             return where;
         }
 
-        public virtual IEnumerable<E> ListSimpleIncludes(Expression<Func<E, bool>> predicate = null, string[] includes = null, IOrdering<E>[] orderBys = null, int? skip = null, int? take = null, bool noTracking = false, bool keepLazy = false)
+        public virtual IEnumerable<TEntity> ListSimpleIncludes(Expression<Func<TEntity, bool>> predicate = null, string[] includes = null, IOrdering<TEntity>[] orderBys = null, int? skip = null, int? take = null, bool noTracking = false, bool keepLazy = false)
         {
-            var where = Context.Set<E>().Where(predicate ?? (x => true));
+            var where = Context.Set<TEntity>().Where(predicate ?? (x => true));
 
             if (includes != null)
             {
@@ -108,26 +108,26 @@ namespace EroniX.Core.DataAccess
             return where;
         }
 
-        public async Task<IEnumerable<E>> ListAsync(Expression<Func<E, bool>> predicate, Includes<E> includes = null, IOrdering<E>[] orderBys = null, int? skip = null, int? take = null, bool noTracking = false)
+        public async Task<IEnumerable<TEntity>> ListAsync(Expression<Func<TEntity, bool>> predicate, Includes<TEntity> includes = null, IOrdering<TEntity>[] orderBys = null, int? skip = null, int? take = null, bool noTracking = false)
         {
-            var list = (IQueryable<E>)List(predicate, includes, orderBys, skip, take, noTracking, true);
+            var list = (IQueryable<TEntity>)List(predicate, includes, orderBys, skip, take, noTracking, true);
             return await list.ToListAsync();
         }
 
-        public async Task<IEnumerable<E>> ListSimpleIncludesAsync(Expression<Func<E, bool>> predicate, string[] includes = null, IOrdering<E>[] orderBys = null, int? skip = null, int? take = null, bool noTracking = false)
+        public async Task<IEnumerable<TEntity>> ListSimpleIncludesAsync(Expression<Func<TEntity, bool>> predicate, string[] includes = null, IOrdering<TEntity>[] orderBys = null, int? skip = null, int? take = null, bool noTracking = false)
         {
-            var list = (IQueryable<E>)ListSimpleIncludes(predicate, includes, orderBys, skip, take, noTracking, true);
+            var list = (IQueryable<TEntity>)ListSimpleIncludes(predicate, includes, orderBys, skip, take, noTracking, true);
             return await list.ToListAsync();
         }
 
-        public int Count(Expression<Func<E, bool>> predicate = null)
+        public int Count(Expression<Func<TEntity, bool>> predicate = null)
         {
-            return Context.Set<E>().Count(predicate ?? (x => true));
+            return Context.Set<TEntity>().Count(predicate ?? (x => true));
         }
 
-        public async Task<int> CountAsync(Expression<Func<E, bool>> predicate = null)
+        public async Task<int> CountAsync(Expression<Func<TEntity, bool>> predicate = null)
         {
-            return await Context.Set<E>().CountAsync(predicate ?? (x => true));
+            return await Context.Set<TEntity>().CountAsync(predicate ?? (x => true));
         }
     }
 }

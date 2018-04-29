@@ -11,7 +11,6 @@ namespace TimeTableDesigner.Web.Controllers
     public class TimeTableController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
-
         private readonly IWebDataService _webDataService;
         private readonly ITimeTableService _timeTableService;
 

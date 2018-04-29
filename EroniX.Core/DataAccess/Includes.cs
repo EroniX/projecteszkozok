@@ -5,16 +5,16 @@ using System.Linq.Expressions;
 
 namespace EroniX.Core.DataAccess
 {
-    public class Includes<E>
+    public class Includes<TEntity>
     {
-        internal Expression<Func<E, object>>[] Incls { get; }
+        internal Expression<Func<TEntity, object>>[] Incls { get; }
 
-        public Includes(params Expression<Func<E, object>>[] includes)
+        public Includes(params Expression<Func<TEntity, object>>[] includes)
         {
             Incls = includes;
         }
 
-        internal IQueryable<E> ApplyIncludes(IQueryable<E> where)
+        internal IQueryable<TEntity> ApplyIncludes(IQueryable<TEntity> where)
         {
             foreach (var include in Incls)
             {

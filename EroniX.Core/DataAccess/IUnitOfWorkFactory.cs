@@ -1,10 +1,10 @@
 ﻿namespace EroniX.Core.DataAccess
 {
-    public interface IUnitOfWorkFactory<out UoW> 
-        where UoW: IUnitOfWork
+    public interface IUnitOfWorkFactory<out TUoW> 
+        where TUoW: IUnitOfWork
     {
-        UoW Create();
+        TUoW Create();
 
-        UoW CreateTransactional();
+        TUoW CreateTransactional();
     }
 }

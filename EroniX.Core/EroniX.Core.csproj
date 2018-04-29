@@ -76,7 +76,9 @@
     <Compile Include="Config\IConfig.cs" />
     <Compile Include="DataAccess\BaseUnitOfWork.cs" />
     <Compile Include="DataAccess\Direction.cs" />
+    <Compile Include="DataAccess\EntityWithStringIdRepository.cs" />
     <Compile Include="DataAccess\EntityRepository.cs" />
+    <Compile Include="DataAccess\IEntityWithStringIdRepository.cs" />
     <Compile Include="DataAccess\IEntityRepository.cs" />
     <Compile Include="DataAccess\Includes.cs" />
     <Compile Include="DataAccess\IOrdering.cs" />
@@ -88,8 +90,10 @@
     <Compile Include="DataAccess\UnitOfWork.cs" />
     <Compile Include="DataAccess\UnitOfWorkFactory.cs" />
     <Compile Include="Domain\DomainValidator.cs" />
+    <Compile Include="Domain\EntityWithStringId.cs" />
     <Compile Include="Domain\Entity.cs" />
     <Compile Include="Domain\IEntity.cs" />
+    <Compile Include="Domain\IEntityWithStringId.cs" />
     <Compile Include="Domain\IHaveActive.cs" />
     <Compile Include="Domain\ValidationInfo.cs" />
     <Compile Include="IAppContextProvider.cs" />

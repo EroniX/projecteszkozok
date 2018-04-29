@@ -2,8 +2,8 @@
 
 namespace EroniX.Core.DataAccess
 {
-    public interface IOrdering<E>
+    public interface IOrdering<TEntity>
     {
-        IQueryable<E> ApplyOrdering(IQueryable<E> where, bool isFirst);
+        IQueryable<TEntity> ApplyOrdering(IQueryable<TEntity> where, bool isFirst);
     }
 }

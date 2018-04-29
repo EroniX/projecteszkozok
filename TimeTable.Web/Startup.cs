@@ -64,10 +64,11 @@ namespace TimeTableDesigner.Web
             )));
             services.AddTransient<ICourseRepository, CourseRepository>();
             services.AddTransient<ITimeTableRepository, TimeTableRepository>();
+            services.AddTransient<IUserRepository, UserRepository>();
 
             // Unit of Work
             services.AddTransient<ITimeTableUnitOfWork, TimeTableUnitOfWork>();
-            services.AddTransient<ITimeTableUnitOfWorkFactory>(s => new TimeTableUnitOfWorkFactory("name=DefaultConnection"));
+            services.AddTransient<ITimeTableUnitOfWorkFactory>(s => new TimeTableUnitOfWorkFactory(Configuration.GetConnectionString("DefaultConnection")));
 
             // Services
             services.AddTransient<ITimeTableService, TimeTableService>();

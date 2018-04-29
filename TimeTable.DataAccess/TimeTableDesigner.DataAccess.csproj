@@ -90,6 +90,7 @@
     <Compile Include="DataContext\ScheduleContext.cs" />
     <Compile Include="DataContext\TimeTableContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\UserRepository.cs" />
     <Compile Include="Repository\ScheduleRepository.cs" />
     <Compile Include="Repository\CourseRepository.cs" />
     <Compile Include="Repository\TimeTableRepository.cs" />

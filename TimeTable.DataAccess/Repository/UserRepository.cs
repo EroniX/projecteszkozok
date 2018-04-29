@@ -5,7 +5,7 @@ using TimeTableDesigner.Shared.Entity.Database;
 
 namespace TimeTableDesigner.DataAccess.Repository
 {
-    public class UserRepository : EntityRepository<User>, IUserRepository
+    public class UserRepository : EntityWithStringIdRepository<User>, IUserRepository
     {
         public UserRepository(TimeTableContext context) : base(context)
         {

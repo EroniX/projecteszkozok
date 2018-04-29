@@ -4,13 +4,13 @@ using EroniX.Core.Domain;
 
 namespace EroniX.Core.DataAccess
 {
-    public abstract class EntityRepository<TEntity> : Repository<TEntity>, IEntityRepository<TEntity>
-        where TEntity : class, IEntity
+    public abstract class EntityWithStringIdRepository<TEntity> : Repository<TEntity>, IEntityWithStringIdRepository<TEntity>
+        where TEntity : class, IEntityWithStringId
     {
-        protected EntityRepository(DbContext dbContext) : base(dbContext)
+        protected EntityWithStringIdRepository(DbContext dbContext) : base(dbContext)
         { }
 
-        public virtual TEntity Get(int id, Includes<TEntity> includes = null)
+        public virtual TEntity Get(string id, Includes<TEntity> includes = null)
         {
             if (includes == null)
                 return Context.Set<TEntity>().Find(id);
@@ -21,7 +21,7 @@ namespace EroniX.Core.DataAccess
             return get.SingleOrDefault();
         }
 
-        public virtual TEntity GetSimpleIncludes(int id, string[] includes = null)
+        public virtual TEntity GetSimpleIncludes(string id, string[] includes = null)
         {
             if (includes == null)
                 return Context.Set<TEntity>().Find(id);

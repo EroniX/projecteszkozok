@@ -1,11 +1,12 @@
+using EroniX.Core.Domain;
+
 namespace TimeTableDesigner.Shared.Entity.Database
 {
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
-    using EroniX.Core.Domain;
 
     [Table("Course")]
-    public partial class Course : IHaveActive
+    public partial class Course : IEntity
     {
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Id { get; set; }
