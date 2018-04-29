@@ -93,7 +93,6 @@
     <Compile Include="Repository\ScheduleRepository.cs" />
     <Compile Include="Repository\CourseRepository.cs" />
     <Compile Include="Repository\TimeTableRepository.cs" />
-    <Compile Include="Repository\UserRepository.cs" />
     <Compile Include="UnitOfWork\TimeTableUnitOfWork.cs" />
     <Compile Include="UnitOfWork\TimeTableUnitOfWorkFactory.cs" />
   </ItemGroup>

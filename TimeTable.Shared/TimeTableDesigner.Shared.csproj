@@ -50,14 +50,12 @@
     <Compile Include="Access\Repository\IScheduleRepository.cs" />
     <Compile Include="Access\Repository\ICourseRepository.cs" />
     <Compile Include="Access\Repository\ITimeTableRepository.cs" />
-    <Compile Include="Access\Repository\IUserRepository.cs" />
     <Compile Include="Access\Service\IWebDataService.cs" />
     <Compile Include="Access\Service\ITimeTableService.cs" />
     <Compile Include="Access\UnitOfWork\ITimeTableUnitOfWork.cs" />
     <Compile Include="Access\UnitOfWork\ITimeTableUnitOfWorkFactory.cs" />
     <Compile Include="Entity\Database\Course.cs" />
     <Compile Include="Entity\Database\TimeTable.cs" />
-    <Compile Include="Entity\Database\User.cs" />
     <Compile Include="Entity\Domain\CourseDayInterval.cs" />
     <Compile Include="Entity\Domain\CourseInterval.cs" />
     <Compile Include="Entity\Domain\CourseTime.cs" />

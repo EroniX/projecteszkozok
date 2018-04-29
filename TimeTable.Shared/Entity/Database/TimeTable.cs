@@ -29,7 +29,5 @@ namespace TimeTableDesigner.Shared.Entity.Database
         public string UserId { get; set; }
         
         public virtual ICollection<Course> Courses { get; set; }
-
-        public virtual User User { get; set; }
     }
 }

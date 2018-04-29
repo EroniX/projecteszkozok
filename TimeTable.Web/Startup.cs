@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Threading.Tasks;
-using EroniX.Core;
+﻿using EroniX.Core;
 using EroniX.Core.Audit;
 using EroniX.Core.Config;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using TimeTableDesigner.DataAccess.DataContext;
@@ -24,7 +18,6 @@ using TimeTableDesigner.Logic.Services;
 using TimeTableDesigner.Shared.Access;
 using TimeTableDesigner.Shared.Access.Service;
 using TimeTableDesigner.Shared.Access.UnitOfWork;
-using TimeTableDesigner.Shared.Entity.Domain;
 using TimeTableDesigner.Shared.Helper.Converter.StringToList;
 using TimeTableDesigner.Shared.Helper.Web;
 
@@ -71,7 +64,6 @@ namespace TimeTableDesigner.Web
             )));
             services.AddTransient<ICourseRepository, CourseRepository>();
             services.AddTransient<ITimeTableRepository, TimeTableRepository>();
-            services.AddTransient<IUserRepository, UserRepository>();
 
             // Unit of Work
             services.AddTransient<ITimeTableUnitOfWork, TimeTableUnitOfWork>();

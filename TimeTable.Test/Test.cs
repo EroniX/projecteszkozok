@@ -20,7 +20,6 @@ namespace TimeTableDesigner.Test
         {
             var timeTableContext = new TimeTableContext("DefaultConnection");
             var courses = timeTableContext.Courses.ToList();
-            int i = 0;
             //var result = scheduleContext.ListCourseDatasByDepartmentAsync("BFÖL", 1).Result.ToList();
         }
 
