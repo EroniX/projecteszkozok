@@ -12,7 +12,7 @@ namespace TimeTableDesigner.Shared.Access.Repository
 
         Task<IEnumerable<WebDepartment>> ListDepartmentsAsync(Func<WebDepartment, bool> predicate = null);
 
-        Task<IEnumerable<WebCourse>> ListWebCoursesByDepartmentAsync(string department, string semester, 
+        Task<IEnumerable<WebCourse>> ListWebCoursesByDepartmentAsync(string department, string semester,
             int grade, Limit limit, Func<WebCourse, bool> predicate = null);
 
         Task<IEnumerable<WebCourse>> ListWebCoursesByNameAsync(string name, string semester,

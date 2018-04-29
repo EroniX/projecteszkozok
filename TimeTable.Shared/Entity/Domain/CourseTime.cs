@@ -1,50 +1,31 @@
 ﻿using System;
-using System.Data;
-using TimeTableDesigner.Shared.Enum;
-using TimeTableDesigner.Shared.Helper.Utility;
+using EroniX.Core.Time;
 
 namespace TimeTableDesigner.Shared.Entity.Domain
 {
-    public class CourseTime
+    public class CourseTime : Time
     {
-        public CourseDay CourseDay { get; set; }
-        public Interval Interval { get; set; }
+        public CourseTime(int hour, int minute) 
+            : base(hour, minute)
+        { }
 
-        public CourseTime(CourseDay courseDay, Interval interval)
+        public static CourseTime ToCourseTime(string time)
         {
-            CourseDay = courseDay;
-            Interval = interval;
-        }
-
-        public override string ToString()
-        {
-            return $"{EnumUtility.GetDescriptionFromEnumValue(CourseDay)}, {Interval}";
-        }
-
-        public static CourseTime ToCourseTime(string courseTime)
-        {
-            if (courseTime == null)
+            if (time == null)
             {
                 throw new ArgumentNullException();
             }
 
-            if (courseTime == "")
-            {
-                return null;
-            }
-
-            var splitted = courseTime.Split(' ');
+            var splitted = time.Split(':');
             if (splitted.Length != 2)
             {
                 throw new ArgumentException();
             }
 
-            var courseDay = EnumUtility.GetValueFromDescription<CourseDay>(splitted[0]);
-            var interval = Interval.ToInterval(splitted[1]);
+            var hour = int.Parse(splitted[0]);
+            var minute = int.Parse(splitted[1]);
 
-            return new CourseTime(
-                courseDay
-              , interval);
+            return new CourseTime(hour, minute);
         }
     }
 }

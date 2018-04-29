@@ -11,22 +11,22 @@
             <p class="lead">Keresés a meghírdetett kurzusok közt szakirány alapján.</p>
             <hr>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 form-group">
                     @Html.LabelFor(n => n.Department)
                     @Html.DropDownListFor(n => n.Department, Model.Departments, new {@class = "form-control"})
                 </div>
             </div>
             <hr>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 form-group">
                     @Html.LabelFor(n => n.Semester)
                     @Html.DropDownListFor(n => n.Semester, Model.Semesters, new {@class = "form-control"})
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 form-group">
                     @Html.LabelFor(n => n.Limit)
                     @Html.DropDownListFor(n => n.Limit, Model.Limits, new {@class = "form-control"})
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 form-group">
                     @Html.LabelFor(n => n.Grade)
                     @Html.DropDownListFor(n => n.Grade, Model.Grades, new {@class = "form-control"})
                 </div>
@@ -46,22 +46,22 @@
             <p class="lead">Keresés kurzusnév, kurzuskód vagy tanár alapján.</p>
             <hr>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 form-group">
                     @Html.LabelFor(n => n.SearchTerm)
                     @Html.TextBoxFor(n => n.SearchTerm, new {@class = "form-control", placeholder = "Pl: Analízis <3"})
                 </div>
             </div>
             <hr>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 form-group">
                     @Html.LabelFor(n => n.SearchType)
                     @Html.DropDownListFor(n => n.SearchType, Model.SearchTypes, new {@class = "form-control"})
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 form-group">
                     @Html.LabelFor(n => n.Semester)
                     @Html.DropDownListFor(n => n.SearchType, Model.Semesters, new {@class = "form-control"})
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 form-group">
                     @Html.LabelFor(n => n.Limit)
                     @Html.DropDownListFor(n => n.Limit, Model.Limits, new {@class = "form-control"})
                 </div>

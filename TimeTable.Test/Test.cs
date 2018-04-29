@@ -15,6 +15,15 @@ namespace TimeTableDesigner.Test
     [TestClass]
     public class Test
     {
+        [TestMethod]
+        public void TestCourseContext()
+        {
+            var timeTableContext = new TimeTableContext("DefaultConnection");
+            var courses = timeTableContext.Courses.ToList();
+            int i = 0;
+            //var result = scheduleContext.ListCourseDatasByDepartmentAsync("BFÖL", 1).Result.ToList();
+        }
+
         //[TestMethod]
         //public void TestCourseContext()
         //{

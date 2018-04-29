@@ -58,9 +58,9 @@
     <Compile Include="Entity\Database\Course.cs" />
     <Compile Include="Entity\Database\TimeTable.cs" />
     <Compile Include="Entity\Database\User.cs" />
+    <Compile Include="Entity\Domain\CourseDayInterval.cs" />
+    <Compile Include="Entity\Domain\CourseInterval.cs" />
     <Compile Include="Entity\Domain\CourseTime.cs" />
-    <Compile Include="Entity\Domain\Interval.cs" />
-    <Compile Include="Entity\Domain\Time.cs" />
     <Compile Include="Entity\Web\WebCourse.cs" />
     <Compile Include="Entity\Web\WebDepartment.cs" />
     <Compile Include="Entity\Web\IWebEntity.cs" />
