@@ -1,32 +1,68 @@
-﻿using System;
-using System.Linq;
-using System.Text;
-using System.Text.Encodings.Web;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using TimeTableDesigner.Web.Extensions;
-using TimeTableDesigner.Web.Models;
-using TimeTableDesigner.Web.Models.ManageViewModels;
-using TimeTableDesigner.Web.Services;
+﻿///Fájl neve: ManageController.cs
+///Dátum: 2018. 04. 25.
 
 namespace TimeTableDesigner.Web.Controllers
 {
+    using Microsoft.AspNetCore.Authentication;
+    using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Identity;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.Extensions.Logging;
+    using System;
+    using System.Linq;
+    using System.Text;
+    using System.Text.Encodings.Web;
+    using System.Threading.Tasks;
+    using TimeTableDesigner.Web.Extensions;
+    using TimeTableDesigner.Web.Models;
+    using TimeTableDesigner.Web.Models.ManageViewModels;
+    using TimeTableDesigner.Web.Services;
+
+    /// <summary>
+    /// A ManageController osztály
+    /// </summary>
     [Authorize]
     [Route("[controller]/[action]")]
     public class ManageController : Controller
     {
+        /// <summary>
+        /// Az "_userManager" adattag
+        /// </summary>
         private readonly UserManager<ApplicationUser> _userManager;
+
+        /// <summary>
+        /// A "_signInManager" adattag
+        /// </summary>
         private readonly SignInManager<ApplicationUser> _signInManager;
+
+        /// <summary>
+        /// Az "_emailSender" adattag
+        /// </summary>
         private readonly IEmailSender _emailSender;
+
+        /// <summary>
+        /// A "_logger" adattag
+        /// </summary>
         private readonly ILogger _logger;
+
+        /// <summary>
+        /// Az "_urlEncoder" adattag
+        /// </summary>
         private readonly UrlEncoder _urlEncoder;
 
+        /// <summary>
+        /// Az "AuthenicatorUriFormat" adattag
+        /// </summary>
         private const string AuthenicatorUriFormat = "otpauth://totp/{0}:{1}?secret={2}&issuer={0}&digits=6";
 
+        /// <summary>
+        /// A konstruktor, ami létrehoz egy ManageController objektumot
+        /// </summary>
+        /// <param name="userManager">Az UserManager</param>
+        /// <param name="signInManager">A SignInManager</param>
+        /// <param name="emailSender">Az EmailSender</param>
+        /// <param name="logger">A logger</param>
+        /// <param name="urlEncoder">Az UrlEncoder</param>
         public ManageController(
           UserManager<ApplicationUser> userManager,
           SignInManager<ApplicationUser> signInManager,
@@ -41,9 +77,16 @@ namespace TimeTableDesigner.Web.Controllers
             _urlEncoder = urlEncoder;
         }
 
+        /// <summary>
+        /// A "StatusMessage" adattag (GETTER, SETTER)
+        /// </summary>
         [TempData]
         public string StatusMessage { get; set; }
 
+        /// <summary>
+        /// Az "Index" függvény
+        /// </summary>
+        /// <returns>A Task objektum</returns>
         [HttpGet]
         public async Task<IActionResult> Index()
         {
@@ -65,6 +108,11 @@ namespace TimeTableDesigner.Web.Controllers
             return View(model);
         }
 
+        /// <summary>
+        /// Az "Index" függvény
+        /// </summary>
+        /// <param name="model">A model</param>
+        /// <returns>A Task objektum</returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Index(IndexViewModel model)
@@ -104,6 +152,11 @@ namespace TimeTableDesigner.Web.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        /// <summary>
+        /// A megerősítő e-mail elküldéséért felelős függvény
+        /// </summary>
+        /// <param name="model">A model</param>
+        /// <returns>A Task objektum</returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> SendVerificationEmail(IndexViewModel model)
@@ -128,6 +181,10 @@ namespace TimeTableDesigner.Web.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        /// <summary>
+        /// A jelszó megváltoztatásáért felelős függvény
+        /// </summary>
+        /// <returns>A Task objektum</returns>
         [HttpGet]
         public async Task<IActionResult> ChangePassword()
         {
@@ -147,6 +204,11 @@ namespace TimeTableDesigner.Web.Controllers
             return View(model);
         }
 
+        /// <summary>
+        /// A jelszó megváltoztatásáért felelős függvény
+        /// </summary>
+        /// <param name="model">A model</param>
+        /// <returns>A Task objektum</returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> ChangePassword(ChangePasswordViewModel model)
@@ -176,6 +238,10 @@ namespace TimeTableDesigner.Web.Controllers
             return RedirectToAction(nameof(ChangePassword));
         }
 
+        /// <summary>
+        /// A jelszó megváltoztatásáért felelős függvény
+        /// </summary>
+        /// <returns>A Task objektum</returns>
         [HttpGet]
         public async Task<IActionResult> SetPassword()
         {
@@ -196,6 +262,11 @@ namespace TimeTableDesigner.Web.Controllers
             return View(model);
         }
 
+        /// <summary>
+        /// A jelszó megváltoztatásáért felelős függvény
+        /// </summary>
+        /// <param name="model">A model</param>
+        /// <returns>A Task objektum</returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> SetPassword(SetPasswordViewModel model)
@@ -224,6 +295,10 @@ namespace TimeTableDesigner.Web.Controllers
             return RedirectToAction(nameof(SetPassword));
         }
 
+        /// <summary>
+        /// A külső bejelentkezést megvalósító függvény
+        /// </summary>
+        /// <returns>A Task objektum</returns>
         [HttpGet]
         public async Task<IActionResult> ExternalLogins()
         {
@@ -243,6 +318,11 @@ namespace TimeTableDesigner.Web.Controllers
             return View(model);
         }
 
+        /// <summary>
+        /// A "LinkLogin"-t megvalósító függvény
+        /// </summary>
+        /// <param name="provider">A szolgáltató</param>
+        /// <returns>A Task objektum</returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> LinkLogin(string provider)
@@ -256,6 +336,10 @@ namespace TimeTableDesigner.Web.Controllers
             return new ChallengeResult(provider, properties);
         }
 
+        /// <summary>
+        /// A "LinkLoginCallback" függvény
+        /// </summary>
+        /// <returns>A Task objektum</returns>
         [HttpGet]
         public async Task<IActionResult> LinkLoginCallback()
         {
@@ -284,6 +368,11 @@ namespace TimeTableDesigner.Web.Controllers
             return RedirectToAction(nameof(ExternalLogins));
         }
 
+        /// <summary>
+        /// A külső kilépést megvalósító függvény
+        /// </summary>
+        /// <param name="model">A model</param>
+        /// <returns>A Task objektum</returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> RemoveLogin(RemoveLoginViewModel model)
@@ -305,6 +394,10 @@ namespace TimeTableDesigner.Web.Controllers
             return RedirectToAction(nameof(ExternalLogins));
         }
 
+        /// <summary>
+        /// A kétfaktorú authentikációt megvalósító függvény
+        /// </summary>
+        /// <returns>A Task objektum</returns>
         [HttpGet]
         public async Task<IActionResult> TwoFactorAuthentication()
         {
@@ -324,6 +417,10 @@ namespace TimeTableDesigner.Web.Controllers
             return View(model);
         }
 
+        /// <summary>
+        /// A kétfaktorú authentikációt kikapcsolásáért figyelmezetető függvény
+        /// </summary>
+        /// <returns>A Task objektum</returns>
         [HttpGet]
         public async Task<IActionResult> Disable2faWarning()
         {
@@ -341,6 +438,10 @@ namespace TimeTableDesigner.Web.Controllers
             return View(nameof(Disable2fa));
         }
 
+        /// <summary>
+        /// A kétfaktorú authentikációt kikapcsolását megvalósító függvény
+        /// </summary>
+        /// <returns>A Task objektum</returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Disable2fa()
@@ -361,6 +462,10 @@ namespace TimeTableDesigner.Web.Controllers
             return RedirectToAction(nameof(TwoFactorAuthentication));
         }
 
+        /// <summary>
+        /// Az authentikátor engedélyezését megvalósító függvény
+        /// </summary>
+        /// <returns>A Task objektum</returns>
         [HttpGet]
         public async Task<IActionResult> EnableAuthenticator()
         {
@@ -386,6 +491,11 @@ namespace TimeTableDesigner.Web.Controllers
             return View(model);
         }
 
+        /// <summary>
+        /// Az authentikátor engedélyezését megvalósító függvény
+        /// </summary>
+        /// <param name="model">A model</param>
+        /// <returns>A Task objektum</returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> EnableAuthenticator(EnableAuthenticatorViewModel model)
@@ -418,12 +528,20 @@ namespace TimeTableDesigner.Web.Controllers
             return RedirectToAction(nameof(GenerateRecoveryCodes));
         }
 
+        /// <summary>
+        /// Az authentikátor visszaállításáért figyelmezetető függvény
+        /// </summary>
+        /// <returns>Az "akció" eredménye</returns>
         [HttpGet]
         public IActionResult ResetAuthenticatorWarning()
         {
             return View(nameof(ResetAuthenticator));
         }
 
+        /// <summary>
+        /// Az authentikátor visszaállításáért felelős függvény
+        /// </summary>
+        /// <returns>A Task objektum</returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> ResetAuthenticator()
@@ -441,6 +559,10 @@ namespace TimeTableDesigner.Web.Controllers
             return RedirectToAction(nameof(EnableAuthenticator));
         }
 
+        /// <summary>
+        /// A "recovery" kód generálásáért felelős függvény
+        /// </summary>
+        /// <returns>A Task objektum</returns>
         [HttpGet]
         public async Task<IActionResult> GenerateRecoveryCodes()
         {
@@ -463,8 +585,10 @@ namespace TimeTableDesigner.Web.Controllers
             return View(model);
         }
 
-        #region Helpers
-
+        /// <summary>
+        /// A hibák hozzáadását megvalósító függvény
+        /// </summary>
+        /// <param name="result">Az eredmény</param>
         private void AddErrors(IdentityResult result)
         {
             foreach (var error in result.Errors)
@@ -473,6 +597,11 @@ namespace TimeTableDesigner.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// A kulcs formázásáért felelős függvény
+        /// </summary>
+        /// <param name="unformattedKey">A formázatlan kulcs</param>
+        /// <returns>A formázott kulcs</returns>
         private string FormatKey(string unformattedKey)
         {
             var result = new StringBuilder();
@@ -490,6 +619,12 @@ namespace TimeTableDesigner.Web.Controllers
             return result.ToString().ToLowerInvariant();
         }
 
+        /// <summary>
+        /// A QR kód uri generálásért felelős függvény
+        /// </summary>
+        /// <param name="email">Az e-mail cím</param>
+        /// <param name="unformattedKey">A formázatlan kulcs</param>
+        /// <returns>Az uri</returns>
         private string GenerateQrCodeUri(string email, string unformattedKey)
         {
             return string.Format(
@@ -498,7 +633,5 @@ namespace TimeTableDesigner.Web.Controllers
                 _urlEncoder.Encode(email),
                 unformattedKey);
         }
-
-        #endregion
     }
 }

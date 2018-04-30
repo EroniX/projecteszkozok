@@ -1,22 +1,50 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using EroniX.Core.Config;
-using HtmlAgilityPack;
-using TimeTableDesigner.Shared.Entity.Web;
-using TimeTableDesigner.Shared.Enum;
-using TimeTableDesigner.Shared.Helper.Converter.StringToList;
-using TimeTableDesigner.Shared.Helper.Web;
+﻿///Fájl neve: ScheduleContext.cs
+///Dátum: 2018. 04. 24.
 
 namespace TimeTableDesigner.DataAccess.DataContext
 {
+    using EroniX.Core.Config;
+    using HtmlAgilityPack;
+    using System;
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
+    using TimeTableDesigner.Shared.Entity.Web;
+    using TimeTableDesigner.Shared.Enum;
+    using TimeTableDesigner.Shared.Helper.Converter.StringToList;
+    using TimeTableDesigner.Shared.Helper.Web;
+
+    /// <summary>
+    /// A ScheduleContext osztály
+    /// </summary>
     public class ScheduleContext
     {
+        /// <summary>
+        /// A "_webHtmlReader" adattag
+        /// </summary>
         private readonly IWebHtmlReader _webHtmlReader;
+
+        /// <summary>
+        /// A "_htmlTableToListConverter" adattag
+        /// </summary>
         private readonly IStringToListConverter _htmlTableToListConverter;
+
+        /// <summary>
+        /// A "_htmlDropDownToListConverter" adattag
+        /// </summary>
         private readonly IStringToListConverter _htmlDropDownToListConverter;
+
+        /// <summary>
+        /// A "_config" adattag
+        /// </summary>
         private readonly IConfig _config;
 
+        /// <summary>
+        /// A konstruktor, ami létrehoz egy ScheduleContext objektumot
+        /// </summary>
+        /// <param name="webHtmlReader">Az IWebHtmlReader</param>
+        /// <param name="htmlTableToListConverter">Az IStringToListConverter</param>
+        /// <param name="htmlDropDownToListConverter">Az IStringToListConverter</param>
+        /// <param name="config">Az IConfig</param>
         public ScheduleContext
         (
             IWebHtmlReader webHtmlReader,
@@ -31,6 +59,14 @@ namespace TimeTableDesigner.DataAccess.DataContext
             _config = config;
         }
 
+        /// <summary>
+        /// A kurzusok szakirány alapján történő listázását megvalósító függvény
+        /// </summary>
+        /// <param name="department">A kurzus</param>
+        /// <param name="semester">A szemeszter</param>
+        /// <param name="grade">Az évfolyam</param>
+        /// <param name="limit">A limit</param>
+        /// <returns>A megfelelő kurzusok egy listában</returns>
         public async Task<IEnumerable<WebCourse>> ListWebCoursesByDepartmentAsync(string department, string semester,
             int grade, Limit limit)
         {
@@ -52,6 +88,13 @@ namespace TimeTableDesigner.DataAccess.DataContext
             );
         }
 
+        /// <summary>
+        /// A kurzusok név alapján történő listázását megvalósító függvény
+        /// </summary>
+        /// <param name="name">A név</param>
+        /// <param name="semester">A szemeszter</param>
+        /// <param name="limit">A limit</param>
+        /// <returns>A megfelelő kurzusok egy listában</returns>
         public async Task<IEnumerable<WebCourse>> ListWebCoursesByNameAsync(string name, string semester, Limit limit)
         {
             var document = new HtmlDocument();
@@ -71,6 +114,13 @@ namespace TimeTableDesigner.DataAccess.DataContext
             );
         }
 
+        /// <summary>
+        /// Kurzusok listázása azonosító alapján
+        /// </summary>
+        /// <param name="id">Az azonosító</param>
+        /// <param name="semester">A szemeszter</param>
+        /// <param name="limit">A limit</param>
+        /// <returns>WebCourse objektumokat tartalmazó lista</returns>
         public async Task<IEnumerable<WebCourse>> ListWebCoursesByIdAsync(string id, string semester, Limit limit)
         {
             var document = new HtmlDocument();
@@ -90,6 +140,13 @@ namespace TimeTableDesigner.DataAccess.DataContext
             );
         }
 
+        /// <summary>
+        /// Kurzusok listázása tanár alapján
+        /// </summary>
+        /// <param name="teacher">A tanár</param>
+        /// <param name="semester">A szemeszter</param>
+        /// <param name="limit">A limit</param>
+        /// <returns>WebCourse objektumokat tartalmazó lista</returns>
         public async Task<IEnumerable<WebCourse>> ListWebCoursesByTeacherAsync(string teacher, string semester,
             Limit limit)
         {
@@ -110,6 +167,10 @@ namespace TimeTableDesigner.DataAccess.DataContext
             );
         }
 
+        /// <summary>
+        /// Szakirányok listázása
+        /// </summary>
+        /// <returns>WebDepartment objektumokat tartalmazó lista</returns>
         public async Task<IEnumerable<WebDepartment>> ListDepartmentsAsync()
         {
             var document = new HtmlDocument();
@@ -122,6 +183,10 @@ namespace TimeTableDesigner.DataAccess.DataContext
             );
         }
 
+        /// <summary>
+        /// Szemeszterek listázása
+        /// </summary>
+        /// <returns>WebSemester objektumokat tartalmazó lista</returns>
         public async Task<IEnumerable<WebSemester>> ListSemestersAsync()
         {
             var document = new HtmlDocument();

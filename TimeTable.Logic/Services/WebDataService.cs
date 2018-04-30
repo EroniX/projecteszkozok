@@ -12,10 +12,19 @@ using TimeTableDesigner.Shared.Enum;
 
 namespace TimeTableDesigner.Logic.Services
 {
+    /// <summary>
+    /// A WebDataService osztály
+    /// </summary>
     public class WebDataService : ServiceBase<ITimeTableAppContextProvider>, IWebDataService
     {
         private readonly IScheduleRepository _scheduleRepository;
 
+        /// <summary>
+        /// A konstruktor ami létrehoz egy WebDataService objektumot
+        /// </summary>
+        /// <param name="scheduleRepository">Az IScheduleRepository</param>
+        /// <param name="appContextProvider">Az ITimeTableAppContextProvider</param>
+        /// <param name="logger">Az ILogger</param>
         public WebDataService
         (
             IScheduleRepository scheduleRepository,
@@ -27,6 +36,23 @@ namespace TimeTableDesigner.Logic.Services
             _scheduleRepository = scheduleRepository;
         }
 
+        /// <summary>
+        /// Kurzus id alapján történő keresése
+        /// </summary>
+        /// <param name="id">Az azonosító</param>
+        /// <param name="semester">A szemeszter</param>
+        /// <returns>A megfelelő WebCourse objektum</returns>
+        public WebCourse FindCourseById(string id, string semester)
+        {
+            return ListWebCoursesByIdAsync(id, semester, Limit.All)
+                .Result
+                .SingleOrDefault();
+        }
+
+        /// <summary>
+        /// Keresési típusok kilistázása
+        /// </summary>
+        /// <returns>SearchType objektumokat tartalmazó lista</returns>
         public IEnumerable<SearchType> ListSearchTypes()
         {
             return new List<SearchType>
@@ -37,47 +63,96 @@ namespace TimeTableDesigner.Logic.Services
             };
         }
 
+        /// <summary>
+        /// Korlátok kilistázása
+        /// </summary>
+        /// <returns>Limit objektumokat tartalmazó lista</returns>
         public IEnumerable<Limit> ListLimits()
         {
             return Enum.GetValues(typeof(Limit))
                 .Cast<Limit>();
         }
 
+        /// <summary>
+        /// Évfolyamok listázása
+        /// </summary>
+        /// <returns>Egy 1-től 5-ig a számokat tartalmazó lista</returns>
         public IEnumerable<int> ListGrades()
         {
             return Enumerable.Range(1, 5);
         }
 
+        /// <summary>
+        /// Szemeszterek listázása
+        /// </summary>
+        /// <returns>WebSemester objektumokat tartalmazó lista</returns>
         public async Task<IEnumerable<WebSemester>> ListSemestersAsync()
         {
             return await _scheduleRepository.ListSemestersAsync();
         }
 
+        /// <summary>
+        /// Szakirányok listázása
+        /// </summary>
+        /// <returns>WebDepartment objektumokat tartalmazó lista</returns>
         public async Task<IEnumerable<WebDepartment>> ListDepartmentsAsync()
         {
             return await _scheduleRepository.ListDepartmentsAsync();
         }
 
+        /// <summary>
+        /// Kurzusok listázása szak alapján
+        /// </summary>
+        /// <param name="department">A szak</param>
+        /// <param name="semester">A szemeszter</param>
+        /// <param name="grade">Az évfolyam</param>
+        /// <param name="limit">A limit</param>
+        /// <param name="predicate">A predikátum</param>
+        /// <returns>WebCourse objektumokat tartalmazó lista</returns>
         public async Task<IEnumerable<WebCourse>> ListWebCoursesByDepartmentAsync(string department, string semester,
-            int grade, Limit limit = Limit.All, Func<WebCourse, bool> predicate = null)
+            int grade, Limit limit, Func<WebCourse, bool> predicate = null)
         {
             return await _scheduleRepository.ListWebCoursesByDepartmentAsync(department, semester, grade, limit, predicate);
         }
 
+        /// <summary>
+        /// Kurzusok listázása név alapján
+        /// </summary>
+        /// <param name="id">A név</param>
+        /// <param name="semester">A szemeszter</param>
+        /// <param name="limit">A limit</param>
+        /// <param name="predicate">A predikátum</param>
+        /// <returns>WebCourse objektumokat tartalmazó lista</returns>
         public async Task<IEnumerable<WebCourse>> ListWebCoursesByNameAsync(string id, string semester,
-            Limit limit = Limit.All, Func<WebCourse, bool> predicate = null)
+            Limit limit, Func<WebCourse, bool> predicate = null)
         {
             return await _scheduleRepository.ListWebCoursesByNameAsync(id, semester, limit, predicate);
         }
 
+        /// <summary>
+        /// Kurzusok listázása azonosító alapján
+        /// </summary>
+        /// <param name="id">Az azonosító</param>
+        /// <param name="semester">A szemeszter</param>
+        /// <param name="limit">A limit</param>
+        /// <param name="predicate">A predikátum</param>
+        /// <returns>WebCourse objektumokat tartalmazó lista</returns>
         public async Task<IEnumerable<WebCourse>> ListWebCoursesByIdAsync(string id, string semester,
-            Limit limit = Limit.All, Func<WebCourse, bool> predicate = null)
+            Limit limit, Func<WebCourse, bool> predicate = null)
         {
             return await _scheduleRepository.ListWebCoursesByIdAsync(id, semester, limit, predicate);
         }
 
+        /// <summary>
+        /// Kurzusok listázása tanár alapján
+        /// </summary>
+        /// <param name="teacher">A tanár</param>
+        /// <param name="semester">A szemeszter</param>
+        /// <param name="limit">A limit</param>
+        /// <param name="predicate">A predikátum</param>
+        /// <returns>WebCourse objektumokat tartalmazó lista</returns>
         public async Task<IEnumerable<WebCourse>> ListWebCoursesByTeacherAsync(string teacher,
-            string semester, Limit limit = Limit.All, Func<WebCourse, bool> predicate = null)
+            string semester, Limit limit, Func<WebCourse, bool> predicate = null)
         {
             return await _scheduleRepository.ListWebCoursesByTeacherAsync(teacher, semester, limit, predicate);
         }

@@ -3,14 +3,14 @@ using System.Threading.Tasks;
 
 namespace EroniX.Core.DataAccess
 {
-    public abstract class UnitOfWork<TEfContext> : BaseUnitOfWork
-        where TEfContext : DbContext
+    public abstract class UnitOfWork<EfContext> : BaseUnitOfWork
+        where EfContext : DbContext
     {
-        protected TEfContext Context;
+        protected EfContext Context;
 
         protected UnitOfWork()
         {
-            Database.SetInitializer<TEfContext>(null);
+            Database.SetInitializer<EfContext>(null);
             // dirty trick to make reference copy
             var instance = System.Data.Entity.SqlServer.SqlProviderServices.Instance;
         }
@@ -20,14 +20,14 @@ namespace EroniX.Core.DataAccess
             Setup(connectionString);
         }
 
-        public sealed override void Setup(string connectionString)
+        public override void Setup(string connectionString)
         {
             Context = GetContext(connectionString);
 
             Context.Configuration.ValidateOnSaveEnabled = false;
         }
 
-        protected abstract TEfContext GetContext(string connectionString);
+        protected abstract EfContext GetContext(string connectionString);
 
         public override void SaveChanges()
         {

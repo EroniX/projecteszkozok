@@ -40,13 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Designer\Engine\Model\EngineSourceModel.cs" />
-    <Compile Include="Designer\Engine\Model\TimeTableEngineModel.cs" />
-    <Compile Include="Designer\Engine\TimeTableDesignerEngine.cs" />
-    <Compile Include="Designer\Preferences\ITimeTablePreference.cs" />
-    <Compile Include="Designer\Preferences\LeastUniversityTimePreference.cs" />
-    <Compile Include="Designer\Preferences\MostSleepTimePreference.cs" />
-    <Compile Include="Helpers\SchoolHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\TimeTableService.cs" />
     <Compile Include="Services\WebDataService.cs" />
@@ -61,6 +54,5 @@
       <Name>TimeTableDesigner.Shared</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,25 +1,42 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using TimeTableDesigner.Shared.Access.Service;
-using TimeTableDesigner.Shared.Entity.Web;
-using TimeTableDesigner.Shared.Enum;
-using TimeTableDesigner.Shared.Helper.Utility;
-using TimeTableDesigner.Web.Helpers;
-using TimeTableDesigner.Web.Models.CourseViewModels;
+﻿///Fájl neve: HomeController.cs
+///Dátum: 2018. 04. 25.
 
 namespace TimeTableDesigner.Web.Controllers
 {
+    using Microsoft.AspNetCore.Mvc;
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
+    using TimeTableDesigner.Shared.Access.Service;
+    using TimeTableDesigner.Shared.Entity.Web;
+    using TimeTableDesigner.Shared.Enum;
+    using TimeTableDesigner.Shared.Helper.Utility;
+    using TimeTableDesigner.Web.Helpers;
+    using TimeTableDesigner.Web.Models.CourseViewModels;
+
+    /// <summary>
+    /// A HomeController osztály
+    /// </summary>
     public class HomeController : Controller
     {
+        /// <summary>
+        /// A "_webDataService" adattag
+        /// </summary>
         private readonly IWebDataService _webDataService;
 
+        /// <summary>
+        /// A konstruktor, ami létrehoz egy HomeController objektumot
+        /// </summary>
+        /// <param name="webDataService">A WebDataService</param>
         public HomeController(IWebDataService webDataService)
         {
             _webDataService = webDataService;
         }
 
+        /// <summary>
+        /// Az inicializálásért felelős függvény
+        /// </summary>
+        /// <param name="viewModel">A viewModel</param>
+        /// <returns>A Task objektum</returns>
         private async Task Initialize(CourseViewModel viewModel)
         {
             viewModel.Semesters = DropDownListHelper.Convert(
@@ -48,6 +65,10 @@ namespace TimeTableDesigner.Web.Controllers
                 n => EnumUtility.GetDescriptionFromEnumValue(n));
         }
 
+        /// <summary>
+        /// Az index függvény
+        /// </summary>
+        /// <returns>A Task objektum</returns>
         public async Task<IActionResult> Index()
         {
             var viewModel = new CourseViewModel();
@@ -57,6 +78,11 @@ namespace TimeTableDesigner.Web.Controllers
             return View(viewModel);
         }
 
+        /// <summary>
+        /// A keresést megvalósító függvény
+        /// </summary>
+        /// <param name="viewModel">A viewModel</param>
+        /// <returns>A Task objektum</returns>
         [HttpGet]
         public async Task<IActionResult> Search(CourseViewModel viewModel)
         {
@@ -85,15 +111,13 @@ namespace TimeTableDesigner.Web.Controllers
                         viewModel.Limit
                     );
                     break;
-                case SearchType.Teacher:
+                default:
                     courses = await _webDataService.ListWebCoursesByTeacherAsync(
                         viewModel.SearchTerm,
                         viewModel.Semester,
                         viewModel.Limit
                     );
                     break;
-                default:
-                    throw new InvalidEnumArgumentException();
             }
 
             return PartialView("_CoursesPartialView", courses);

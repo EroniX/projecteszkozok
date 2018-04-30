@@ -1,27 +1,55 @@
-﻿using System;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using TimeTableDesigner.Web.Extensions;
-using TimeTableDesigner.Web.Models;
-using TimeTableDesigner.Web.Models.AccountViewModels;
-using TimeTableDesigner.Web.Services;
+﻿///Fájl neve: AccountController.cs
+///Dátum: 2018. 04. 25.
 
 namespace TimeTableDesigner.Web.Controllers
 {
+    using Microsoft.AspNetCore.Authentication;
+    using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Identity;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.Extensions.Logging;
+    using System;
+    using System.Security.Claims;
+    using System.Threading.Tasks;
+    using TimeTableDesigner.Web.Extensions;
+    using TimeTableDesigner.Web.Models;
+    using TimeTableDesigner.Web.Models.AccountViewModels;
+    using TimeTableDesigner.Web.Services;
+
+    /// <summary>
+    /// Az AccountController osztály
+    /// </summary>
     [Authorize]
     [Route("[controller]/[action]")]
     public class AccountController : Controller
     {
+        /// <summary>
+        /// Az "_userManager" adattag
+        /// </summary>
         private readonly UserManager<ApplicationUser> _userManager;
+
+        /// <summary>
+        /// A "_signInManager" adattag
+        /// </summary>
         private readonly SignInManager<ApplicationUser> _signInManager;
+
+        /// <summary>
+        /// Az "_emailSender" adattag
+        /// </summary>
         private readonly IEmailSender _emailSender;
+
+        /// <summary>
+        /// A "_logger" adattag
+        /// </summary>
         private readonly ILogger _logger;
 
+        /// <summary>
+        /// A konstruktor, ami létrehoz egy új AccountController objektumot
+        /// </summary>
+        /// <param name="userManager">Az UserManager</param>
+        /// <param name="signInManager">A SignInManager</param>
+        /// <param name="emailSender">Az EmailSender</param>
+        /// <param name="logger">A Logger</param>
         public AccountController(
             UserManager<ApplicationUser> userManager,
             SignInManager<ApplicationUser> signInManager,
@@ -34,9 +62,17 @@ namespace TimeTableDesigner.Web.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Az "ErrorMessage" adattag (GETTER, SETTER)
+        /// </summary>
         [TempData]
         public string ErrorMessage { get; set; }
 
+        /// <summary>
+        /// A belépést megvalósító függvény
+        /// </summary>
+        /// <param name="returnUrl">Az URL</param>
+        /// <returns>Az IActionResult objektum</returns>
         [HttpGet]
         [AllowAnonymous]
         public async Task<IActionResult> Login(string returnUrl = null)
@@ -48,6 +84,12 @@ namespace TimeTableDesigner.Web.Controllers
             return View();
         }
 
+        /// <summary>
+        /// A belépést megvalósító függvény
+        /// </summary>
+        /// <param name="model">A Login model</param>
+        /// <param name="returnUrl">Az URL</param>
+        /// <returns>Az IActionResult objektum</returns>
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
@@ -84,6 +126,12 @@ namespace TimeTableDesigner.Web.Controllers
             return View(model);
         }
 
+        /// <summary>
+        /// A kétfaktorú authentikációs belépést megvalósító függvény
+        /// </summary>
+        /// <param name="rememberMe">Adatok megjegyzése (logikai)</param>
+        /// <param name="returnUrl">Az URL</param>
+        /// <returns>Az IActionResult objektum</returns>
         [HttpGet]
         [AllowAnonymous]
         public async Task<IActionResult> LoginWith2fa(bool rememberMe, string returnUrl = null)
@@ -102,6 +150,13 @@ namespace TimeTableDesigner.Web.Controllers
             return View(model);
         }
 
+        /// <summary>
+        /// A kétfaktorú authentikációs belépést megvalósító függvény
+        /// </summary>
+        /// <param name="model">A Login model</param>
+        /// <param name="rememberMe">Adatok megjegyzése (logikai)</param>
+        /// <param name="returnUrl">Az URL</param>
+        /// <returns>Az IActionResult objektum</returns>
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
@@ -140,6 +195,11 @@ namespace TimeTableDesigner.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// A recovery kóddal történő bejelentkezést megvalósító függvény
+        /// </summary>
+        /// <param name="returnUrl">Az URL</param>
+        /// <returns>A Task objektum</returns>
         [HttpGet]
         [AllowAnonymous]
         public async Task<IActionResult> LoginWithRecoveryCode(string returnUrl = null)
@@ -156,6 +216,12 @@ namespace TimeTableDesigner.Web.Controllers
             return View();
         }
 
+        /// <summary>
+        /// A recovery kóddal történő bejelentkezést megvalósító függvény
+        /// </summary>
+        /// <param name="model">A login model</param>
+        /// <param name="returnUrl">Az URL</param>
+        /// <returns>A Task objektum</returns>
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
@@ -194,6 +260,10 @@ namespace TimeTableDesigner.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// A "Lockout" függvény
+        /// </summary>
+        /// <returns>Egy az IActionResult interfészt megvalósító objektum</returns>
         [HttpGet]
         [AllowAnonymous]
         public IActionResult Lockout()
@@ -201,6 +271,11 @@ namespace TimeTableDesigner.Web.Controllers
             return View();
         }
 
+        /// <summary>
+        /// A regisztrációt végrehajtó függvény
+        /// </summary>
+        /// <param name="returnUrl">Az URL</param>
+        /// <returns>Egy az IActionResult interfészt megvalósító objektum</returns>
         [HttpGet]
         [AllowAnonymous]
         public IActionResult Register(string returnUrl = null)
@@ -209,6 +284,12 @@ namespace TimeTableDesigner.Web.Controllers
             return View();
         }
 
+        /// <summary>
+        /// A regisztrációt végrehajtó függvény
+        /// </summary>
+        /// <param name="model">A register model</param>
+        /// <param name="returnUrl">Az URL</param>
+        /// <returns>A Task objektum</returns>
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
@@ -238,6 +319,10 @@ namespace TimeTableDesigner.Web.Controllers
             return View(model);
         }
 
+        /// <summary>
+        /// A kilépést végrehajtó függvény
+        /// </summary>
+        /// <returns>A task objektum</returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()
@@ -247,6 +332,12 @@ namespace TimeTableDesigner.Web.Controllers
             return RedirectToAction(nameof(HomeController.Index), "Home");
         }
 
+        /// <summary>
+        /// A külső bejelentkezést megvalósító függvény
+        /// </summary>
+        /// <param name="provider">A provider</param>
+        /// <param name="returnUrl">Az URL</param>
+        /// <returns>Az bejelentkezés eredménye</returns>
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
@@ -258,6 +349,12 @@ namespace TimeTableDesigner.Web.Controllers
             return Challenge(properties, provider);
         }
 
+        /// <summary>
+        /// A külső bejelnetkezéshez tartozó callback függvény
+        /// </summary>
+        /// <param name="returnUrl">Az URL</param>
+        /// <param name="remoteError">A remoteError (ha van)</param>
+        /// <returns>A Task objektum</returns>
         [HttpGet]
         [AllowAnonymous]
         public async Task<IActionResult> ExternalLoginCallback(string returnUrl = null, string remoteError = null)
@@ -294,6 +391,12 @@ namespace TimeTableDesigner.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// A külső bejelentkezés megerősítésére szolgáló függvény
+        /// </summary>
+        /// <param name="model">A login model</param>
+        /// <param name="returnUrl">Az URL</param>
+        /// <returns>A Task objektum</returns>
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
@@ -326,6 +429,12 @@ namespace TimeTableDesigner.Web.Controllers
             return View(nameof(ExternalLogin), model);
         }
 
+        /// <summary>
+        /// Az e-mail cím megerősítésére szolgáló függvény
+        /// </summary>
+        /// <param name="userId">A felhasználó azonosítója</param>
+        /// <param name="code">A kód</param>
+        /// <returns>A Task objektum</returns>
         [HttpGet]
         [AllowAnonymous]
         public async Task<IActionResult> ConfirmEmail(string userId, string code)
@@ -343,6 +452,10 @@ namespace TimeTableDesigner.Web.Controllers
             return View(result.Succeeded ? "ConfirmEmail" : "Error");
         }
 
+        /// <summary>
+        /// Az elfelejtett jelszavakért felelős függvény
+        /// </summary>
+        /// <returns>A Task objektum</returns>
         [HttpGet]
         [AllowAnonymous]
         public IActionResult ForgotPassword()
@@ -350,6 +463,11 @@ namespace TimeTableDesigner.Web.Controllers
             return View();
         }
 
+        /// <summary>
+        /// Az elfelejtett jelszavakért felelős függvény
+        /// </summary>
+        /// <param name="model">A model</param>
+        /// <returns>A Task objektum</returns>
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
@@ -377,6 +495,10 @@ namespace TimeTableDesigner.Web.Controllers
             return View(model);
         }
 
+        /// <summary>
+        /// Az elfelejtett jelszó megerősítéséért felelős függvény
+        /// </summary>
+        /// <returns>Az "akció" eredménye</returns>
         [HttpGet]
         [AllowAnonymous]
         public IActionResult ForgotPasswordConfirmation()
@@ -384,6 +506,11 @@ namespace TimeTableDesigner.Web.Controllers
             return View();
         }
 
+        /// <summary>
+        /// A jelszó megváltoztatásáért felelős függvény
+        /// </summary>
+        /// <param name="code">A kód</param>
+        /// <returns>Az "akció" eredménye</returns>
         [HttpGet]
         [AllowAnonymous]
         public IActionResult ResetPassword(string code = null)
@@ -396,6 +523,11 @@ namespace TimeTableDesigner.Web.Controllers
             return View(model);
         }
 
+        /// <summary>
+        /// A jelszó megváltoztatásáért felelős függvény
+        /// </summary>
+        /// <param name="model">A model</param>
+        /// <returns>A Task objektum</returns>
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
@@ -420,6 +552,10 @@ namespace TimeTableDesigner.Web.Controllers
             return View();
         }
 
+        /// <summary>
+        /// A jelszó megváltoztatásának megerősítéséért felelős függvény
+        /// </summary>
+        /// <returns>Az "akció" eredménye</returns>
         [HttpGet]
         [AllowAnonymous]
         public IActionResult ResetPasswordConfirmation()
@@ -427,15 +563,20 @@ namespace TimeTableDesigner.Web.Controllers
             return View();
         }
 
-
+        /// <summary>
+        /// A hozzáférés megtagadását megvalósító függvény
+        /// </summary>
+        /// <returns>Az "akció" eredménye</returns>
         [HttpGet]
         public IActionResult AccessDenied()
         {
             return View();
         }
 
-        #region Helpers
-
+        /// <summary>
+        /// A hibák hozzáadását megvalósító függvény
+        /// </summary>
+        /// <param name="result">Az IdentityResult</param>
         private void AddErrors(IdentityResult result)
         {
             foreach (var error in result.Errors)
@@ -444,6 +585,11 @@ namespace TimeTableDesigner.Web.Controllers
             }
         }
 
+        /// <summary>
+        /// Az átirányítást megvalósító függvény
+        /// </summary>
+        /// <param name="returnUrl">Az URL</param>
+        /// <returns>Az "akció" eredménye</returns>
         private IActionResult RedirectToLocal(string returnUrl)
         {
             if (Url.IsLocalUrl(returnUrl))
@@ -455,7 +601,5 @@ namespace TimeTableDesigner.Web.Controllers
                 return RedirectToAction(nameof(HomeController.Index), "Home");
             }
         }
-
-        #endregion
     }
 }

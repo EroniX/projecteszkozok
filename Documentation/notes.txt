@@ -1,0 +1,4 @@
+A használt eszközök/kiegészítők:
+
+	-- Code Formatter: https://marketplace.visualstudio.com/items?itemName=vs-publisher-599079.CodeFormatter
+	-- GhostDoc: https://marketplace.visualstudio.com/items?itemName=sergeb.GhostDoc

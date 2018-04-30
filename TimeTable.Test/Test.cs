@@ -12,17 +12,12 @@ using TimeTableDesigner.Shared.Helper.Web;
 
 namespace TimeTableDesigner.Test
 {
+    /// <summary>
+    /// A Test osztály
+    /// </summary>
     [TestClass]
     public class Test
     {
-        [TestMethod]
-        public void TestCourseContext()
-        {
-            var timeTableContext = new TimeTableContext("DefaultConnection");
-            var courses = timeTableContext.Courses.ToList();
-            //var result = scheduleContext.ListCourseDatasByDepartmentAsync("BFÖL", 1).Result.ToList();
-        }
-
         //[TestMethod]
         //public void TestCourseContext()
         //{

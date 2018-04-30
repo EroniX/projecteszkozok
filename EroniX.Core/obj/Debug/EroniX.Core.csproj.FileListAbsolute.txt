@@ -1,12 +1,14 @@
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\EroniX.Core\bin\Debug\EroniX.Core.dll.config
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\EroniX.Core\bin\Debug\EroniX.Core.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\EroniX.Core\bin\Debug\EroniX.Core.pdb
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\EroniX.Core\bin\Debug\EntityFramework.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\EroniX.Core\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\EroniX.Core\bin\Debug\NLog.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\EroniX.Core\bin\Debug\EntityFramework.xml
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\EroniX.Core\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\EroniX.Core\bin\Debug\NLog.xml
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\EroniX.Core\obj\Debug\EroniX.Core.csproj.CoreCompileInputs.cache
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\EroniX.Core\obj\Debug\EroniX.Core.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\EroniX.Core\obj\Debug\EroniX.Core.pdb
+C:\Users\range\Desktop\Project Eszközök\EroniX.Core\bin\Debug\EroniX.Core.dll.config
+C:\Users\range\Desktop\Project Eszközök\EroniX.Core\bin\Debug\EroniX.Core.dll
+C:\Users\range\Desktop\Project Eszközök\EroniX.Core\bin\Debug\EroniX.Core.pdb
+C:\Users\range\Desktop\Project Eszközök\EroniX.Core\bin\Debug\EntityFramework.dll
+C:\Users\range\Desktop\Project Eszközök\EroniX.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\range\Desktop\Project Eszközök\EroniX.Core\bin\Debug\NLog.dll
+C:\Users\range\Desktop\Project Eszközök\EroniX.Core\bin\Debug\EntityFramework.xml
+C:\Users\range\Desktop\Project Eszközök\EroniX.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\range\Desktop\Project Eszközök\EroniX.Core\bin\Debug\NLog.xml
+C:\Users\range\Desktop\Project Eszközök\EroniX.Core\obj\Debug\EroniX.Core.csproj.CoreCompileInputs.cache
+C:\Users\range\Desktop\Project Eszközök\EroniX.Core\obj\Debug\EroniX.Core.csproj.CopyComplete
+C:\Users\range\Desktop\Project Eszközök\EroniX.Core\obj\Debug\EroniX.Core.dll
+C:\Users\range\Desktop\Project Eszközök\EroniX.Core\obj\Debug\EroniX.Core.pdb
+C:\Users\range\Desktop\Project Eszközök\EroniX.Core\obj\Debug\EroniX.Core.csprojResolveAssemblyReference.cache

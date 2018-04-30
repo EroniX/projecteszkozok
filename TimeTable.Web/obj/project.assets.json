@@ -9761,26 +9761,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EroniX\\.nuget\\packages\\": {},
+    "C:\\Users\\range\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\EroniX\\Documents\\timetabledesigner\\TimeTable.Web\\TimeTableDesigner.Web.csproj",
+      "projectUniqueName": "C:\\Users\\range\\Desktop\\Projekt eszközök 1.0\\TimeTable.Web\\TimeTableDesigner.Web.csproj",
       "projectName": "TimeTableDesigner.Web",
-      "projectPath": "C:\\Users\\EroniX\\Documents\\timetabledesigner\\TimeTable.Web\\TimeTableDesigner.Web.csproj",
-      "packagesPath": "C:\\Users\\EroniX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EroniX\\Documents\\timetabledesigner\\TimeTable.Web\\obj\\",
+      "projectPath": "C:\\Users\\range\\Desktop\\Projekt eszközök 1.0\\TimeTable.Web\\TimeTableDesigner.Web.csproj",
+      "packagesPath": "C:\\Users\\range\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\range\\Desktop\\Projekt eszközök 1.0\\TimeTable.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\EroniX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\range\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9793,14 +9790,14 @@
       "frameworks": {
         "net461": {
           "projectReferences": {
-            "C:\\Users\\EroniX\\Documents\\timetabledesigner\\TimeTable.Logic\\TimeTableDesigner.Logic.csproj": {
-              "projectPath": "C:\\Users\\EroniX\\Documents\\timetabledesigner\\TimeTable.Logic\\TimeTableDesigner.Logic.csproj"
+            "C:\\Users\\range\\Desktop\\Projekt eszközök 1.0\\TimeTable.DataAccess\\TimeTableDesigner.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\range\\Desktop\\Projekt eszközök 1.0\\TimeTable.DataAccess\\TimeTableDesigner.DataAccess.csproj"
             },
-            "C:\\Users\\EroniX\\Documents\\timetabledesigner\\TimeTable.DataAccess\\TimeTableDesigner.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\EroniX\\Documents\\timetabledesigner\\TimeTable.DataAccess\\TimeTableDesigner.DataAccess.csproj"
+            "C:\\Users\\range\\Desktop\\Projekt eszközök 1.0\\TimeTable.Logic\\TimeTableDesigner.Logic.csproj": {
+              "projectPath": "C:\\Users\\range\\Desktop\\Projekt eszközök 1.0\\TimeTable.Logic\\TimeTableDesigner.Logic.csproj"
             },
-            "C:\\Users\\EroniX\\Documents\\timetabledesigner\\TimeTable.Shared\\TimeTableDesigner.Shared.csproj": {
-              "projectPath": "C:\\Users\\EroniX\\Documents\\timetabledesigner\\TimeTable.Shared\\TimeTableDesigner.Shared.csproj"
+            "C:\\Users\\range\\Desktop\\Projekt eszközök 1.0\\TimeTable.Shared\\TimeTableDesigner.Shared.csproj": {
+              "projectPath": "C:\\Users\\range\\Desktop\\Projekt eszközök 1.0\\TimeTable.Shared\\TimeTableDesigner.Shared.csproj"
             }
           }
         }
@@ -9814,61 +9811,61 @@
     "frameworks": {
       "net461": {
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
           "Microsoft.AspNetCore": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
           },
           "Microsoft.AspNetCore.Authentication.Cookies": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
+          },
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
+          "Microsoft.AspNetCore.Mvc": {
+            "target": "Package",
+            "version": "[2.0.0, )"
           },
           "Microsoft.AspNetCore.Mvc.Razor.ViewCompilation": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
           },
-          "Microsoft.EntityFrameworkCore.Tools": {
-            "suppressParent": "All",
+          "Microsoft.AspNetCore.StaticFiles": {
             "target": "Package",
-            "version": "2.0.0"
-          },
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.0"
-          },
-          "jQuery.Fullcalendar": {
-            "target": "Package",
-            "version": "3.4.0"
-          },
-          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
-          "Microsoft.VisualStudio.Web.BrowserLink": {
-            "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
           },
-          "Microsoft.AspNetCore.Mvc": {
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
           },
-          "Microsoft.AspNetCore.StaticFiles": {
+          "Microsoft.VisualStudio.Web.BrowserLink": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
+          },
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
+          "jQuery.Fullcalendar": {
+            "target": "Package",
+            "version": "[3.4.0, )"
           }
         }
       }

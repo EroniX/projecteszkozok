@@ -1,54 +1,64 @@
-﻿using System;
+﻿///Fájl neve: Time.cs
+///Dátum: 2018. 04. 24.
 
 namespace TimeTableDesigner.Shared.Entity.Domain
 {
-    public class Time : IComparable
+    using System;
+
+    /// <summary>
+    /// A Time osztály
+    /// </summary>
+    public class Time
     {
+        /// <summary>
+        /// A "Hour" adattag (GETTER, SETTER)
+        /// </summary>
         public int Hour { get; set; }
+
+        /// <summary>
+        /// A "Minute" adattag (GETTER, SETTER)
+        /// </summary>
         public int Minute { get; set; }
 
-        public string DisplayHour => Hour < 10
+        /// <summary>
+        /// Az órát megjelenítő függvény
+        /// </summary>
+        public string DisplayHour=> Hour < 10
             ? $"0{Hour}"
             : Hour.ToString();
 
-        public string DisplayMinute => Minute < 10
+        /// <summary>
+        /// A percet megjelenítő függvény
+        /// </summary>
+        public string DisplayMinute=> Minute < 10
             ? $"0{Minute}"
             : Minute.ToString();
 
+        /// <summary>
+        /// A konstruktor, ami készít egy Time objektumot 
+        /// </summary>
+        /// <param name="hour">Az óra</param>
+        /// <param name="minute">A perc</param>
         public Time(int hour, int minute)
         {
             Hour = hour;
             Minute = minute;
         }
 
+        /// <summary>
+        /// Az objektum stringgé konvertálását megvalósító függvény
+        /// </summary>
+        /// <returns>A string reprezentáció</returns>
         public override string ToString()
         {
             return $"{DisplayHour}:{DisplayMinute}";
         }
 
-        public int CompareTo(object obj)
-        {
-            if (obj == null)
-            {
-                throw new ArgumentNullException();
-            }
-
-            var time = obj as Time;
-            if (time == null)
-            {
-                throw new ArgumentException();
-            }
-
-            if (time.Hour != Hour)
-            {
-                return time.Hour < Hour
-                    ? 1
-                    : -1;
-            }
-
-            return time.Minute.CompareTo(Minute);
-        }
-
+        /// <summary>
+        /// A time string Time objektummá konvertálását megvalósító függvény
+        /// </summary>
+        /// <param name="time">A Time stringként</param>
+        /// <returns>Az elkészített Time objektum, ha nem történt hiba</returns>
         public static Time ToTime(string time)
         {
             if (time == null)

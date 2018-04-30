@@ -1,92 +1,55 @@
-using TimeTableDesigner.Shared.Entity.Database;
+///Fájl neve: TimeTableContext.cs
+///Dátum: 2018. 04. 24.
 
 namespace TimeTableDesigner.DataAccess.DataContext
 {
+    using Microsoft.EntityFrameworkCore;
     using System.Data.Entity;
+    using TimeTableDesigner.Shared.Entity.Database;
 
+    /// <summary>
+    /// A TimeTableContext osztály
+    /// </summary>
     public partial class TimeTableContext : DbContext
     {
+        /// <summary>
+        /// A konstruktor, ami létrehoz egy TimeTableContext objektumot
+        /// </summary>
+        /// <param name="connectionString">A connection string</param>
         public TimeTableContext(string connectionString)
             : base(connectionString)
-        { }
+        {
+        }
 
-        public virtual DbSet<User> Users { get; set; }
-        public virtual DbSet<BusinessAudit> BusinessAudits { get; set; }
+        /// <summary>
+        /// A "Courses" virtuális adattag (GETTER, SETTER)
+        /// </summary>
         public virtual DbSet<Course> Courses { get; set; }
-        public virtual DbSet<DiagnosticAudit> DiagnosticAudits { get; set; }
+
+        /// <summary>
+        /// A "TimeTables" virtuális adattag (GETTER, SETTER)
+        /// </summary>
         public virtual DbSet<TimeTable> TimeTables { get; set; }
 
+        /// <summary>
+        /// A "Users" virtuális adattag (GETTER, SETTER)
+        /// </summary>
+        public virtual DbSet<User> Users { get; set; }
+
+        /// <summary>
+        /// A context inicializálását megvalósító függvény
+        /// </summary>
+        /// <param name="modelBuilder">A DbModelBuilder</param>
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<User>()
-                .HasMany(e => e.TimeTable)
-                .WithRequired(e => e.User)
-                .HasForeignKey(e => e.UserId)
+            modelBuilder.Entity<TimeTable>()
+                .HasMany(e => e.Courses)
+                .WithRequired(e => e.TimeTable)
                 .WillCascadeOnDelete(false);
 
-            modelBuilder.Entity<BusinessAudit>()
-                .Property(e => e.User)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<BusinessAudit>()
-                .Property(e => e.Level)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<BusinessAudit>()
-                .Property(e => e.Machine)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<BusinessAudit>()
-                .Property(e => e.Class)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<BusinessAudit>()
-                .Property(e => e.Method)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<BusinessAudit>()
-                .Property(e => e.TestStringValue)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<DiagnosticAudit>()
-                .Property(e => e.User)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<DiagnosticAudit>()
-                .Property(e => e.EventType)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<DiagnosticAudit>()
-                .Property(e => e.Level)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<DiagnosticAudit>()
-                .Property(e => e.Machine)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<DiagnosticAudit>()
-                .Property(e => e.Class)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<DiagnosticAudit>()
-                .Property(e => e.Method)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<DiagnosticAudit>()
-                .Property(e => e.ExceptionType)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<DiagnosticAudit>()
-                .Property(e => e.Message)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<DiagnosticAudit>()
-                .Property(e => e.StackTrace)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<TimeTable>()
-                .HasMany(e => e.Course)
-                .WithRequired(e => e.TimeTable)
+            modelBuilder.Entity<User>()
+                .HasMany(e => e.TimeTables)
+                .WithRequired(e => e.User)
                 .WillCascadeOnDelete(false);
         }
     }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.10
+VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EroniX.Core", "EroniX.Core\EroniX.Core.csproj", "{0354D967-2DF9-498B-9CCB-E27437A3B572}"
 EndProject
@@ -14,6 +14,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTableDesigner.Test", "TimeTable.Test\TimeTableDesigner.Test.csproj", "{D752AD51-86FB-4707-ABB7-09B36D9FA93C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeTableDesigner.Web", "TimeTable.Web\TimeTableDesigner.Web.csproj", "{ACB27AD8-7A10-4F17-A763-D82300AEBD0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3C5E5BBA-1A7D-49A4-8383-117288EC56B3}"
+	ProjectSection(SolutionItems) = preProject
+		TimeTable.header = TimeTable.header
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

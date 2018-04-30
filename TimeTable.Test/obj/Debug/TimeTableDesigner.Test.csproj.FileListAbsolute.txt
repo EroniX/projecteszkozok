@@ -1,34 +1,34 @@
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\obj\Debug\TimeTableDesigner.Test.csprojResolveAssemblyReference.cache
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\obj\Debug\TimeTableDesigner.Test.csproj.CoreCompileInputs.cache
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\TimeTableDesigner.Test.dll.config
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\TimeTableDesigner.Test.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\TimeTableDesigner.Test.pdb
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\EroniX.Core.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\TimeTableDesigner.DataAccess.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\TimeTableDesigner.Logic.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\TimeTableDesigner.Shared.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\EntityFramework.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\NLog.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\HtmlAgilityPack.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\EroniX.Core.pdb
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\EroniX.Core.dll.config
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\TimeTableDesigner.DataAccess.pdb
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\TimeTableDesigner.DataAccess.dll.config
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\TimeTableDesigner.Logic.pdb
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\TimeTableDesigner.Shared.pdb
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\EntityFramework.xml
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\NLog.xml
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\HtmlAgilityPack.pdb
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\HtmlAgilityPack.xml
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\obj\Debug\TimeTableDesigner.Test.dll
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\obj\Debug\TimeTableDesigner.Test.pdb
-C:\Users\EroniX\Documents\visual studio 2017\Projects\TimeTable\TimeTable.Test\bin\Debug\System.Net.Http.dll
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\obj\Debug\TimeTableDesigner.Test.csprojResolveAssemblyReference.cache
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\obj\Debug\TimeTableDesigner.Test.csproj.CoreCompileInputs.cache
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\TimeTableDesigner.Test.dll.config
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\TimeTableDesigner.Test.dll
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\TimeTableDesigner.Test.pdb
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\EroniX.Core.dll
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\TimeTableDesigner.DataAccess.dll
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\TimeTableDesigner.Logic.dll
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\TimeTableDesigner.Shared.dll
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\EntityFramework.dll
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\NLog.dll
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\HtmlAgilityPack.dll
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\EroniX.Core.pdb
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\EroniX.Core.dll.config
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\TimeTableDesigner.DataAccess.pdb
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\TimeTableDesigner.DataAccess.dll.config
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\TimeTableDesigner.Logic.pdb
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\TimeTableDesigner.Shared.pdb
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\EntityFramework.xml
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\NLog.xml
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\bin\Debug\HtmlAgilityPack.xml
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\obj\Debug\TimeTableDesigner.Test.csproj.CopyComplete
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\obj\Debug\TimeTableDesigner.Test.dll
+C:\Users\range\Desktop\Project Eszközök\TimeTable.Test\obj\Debug\TimeTableDesigner.Test.pdb

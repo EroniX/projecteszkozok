@@ -7410,6 +7410,18 @@
                 </para>
             </summary>
         </member>
+        <member name="F:Microsoft.EntityFrameworkCore.Diagnostics.CoreEventId.UseLegacyEventIdsSwitch">
+            <summary>
+                <para>
+                    The name of the switch to use with <see cref="M:System.AppContext.SetSwitch(System.String,System.Boolean)"/> to use the event ID numbers
+                    that were shipped with EF Core 2.0.0. These IDs are too big for use in Windows EventLog, so smaller 
+                    numbers were used starting with EF Core 2.0.1.
+                </para>
+                <para>
+                    Only set this switch if a tool was compiled against 2.0.0 and is explicitly using the legacy IDs.
+                </para>
+            </summary>
+        </member>
         <member name="F:Microsoft.EntityFrameworkCore.Diagnostics.CoreEventId.CoreBaseId">
             <summary>
                 The lower-bound for event IDs used by any Entity Framework or provider code.
@@ -8196,6 +8208,18 @@
         <member name="P:Microsoft.EntityFrameworkCore.Diagnostics.IncludeEventData.IncludeResultOperator">
             <summary>
                 The <see cref="M:Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.Include``2(System.Linq.IQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})" /> result operator.
+            </summary>
+        </member>
+        <member name="T:Microsoft.EntityFrameworkCore.Diagnostics.Internal.EventIdFactory">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Diagnostics.Internal.EventIdFactory.Create(System.Int32,System.String)">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
             </summary>
         </member>
         <member name="T:Microsoft.EntityFrameworkCore.Diagnostics.LoggerCategory`1">
@@ -14382,6 +14406,16 @@
         <member name="F:Microsoft.EntityFrameworkCore.Internal.CoreStrings.LogDuplicateDependentEntityTypeInstance">
             <summary>
                 The same entity is being tracked as different dependent entity types '{dependent1}' and '{dependent2}'. If a property value changes it will result in two store changes, which might not be the desired outcome.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.CoreStrings.IdentityConflictOwned(System.Object,System.Object)">
+            <summary>
+                The instance of entity type '{entityType}' cannot be tracked because another instance with the same key value for {keyProperties} is already being tracked. When replacing owned entities modify the properties without changing the instance or detach the parent first. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.CoreStrings.IdentityConflictOwnedSensitive(System.Object,System.Object)">
+            <summary>
+                The instance of entity type '{entityType}' cannot be tracked because another instance with the key value '{keyValue}' is already being tracked. When replacing owned entities modify the properties without changing the instance or detach the parent first..
             </summary>
         </member>
         <member name="T:Microsoft.EntityFrameworkCore.KeyExtensions">
@@ -29241,7 +29275,19 @@
                 directly from your code. This API may change or be removed in future releases.
             </summary>
         </member>
+        <member name="P:Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.QuerySourceTracingExpressionVisitor.OriginGroupByQueryModel">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
         <member name="M:Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.QuerySourceTracingExpressionVisitor.VisitQuerySourceReference(Remotion.Linq.Clauses.Expressions.QuerySourceReferenceExpression)">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.QuerySourceTracingExpressionVisitor.VisitSubQuery(Remotion.Linq.Clauses.Expressions.SubQueryExpression)">
             <summary>
                 This API supports the Entity Framework Core infrastructure and is not intended to be used
                 directly from your code. This API may change or be removed in future releases.
@@ -29469,6 +29515,12 @@
                 directly from your code. This API may change or be removed in future releases.
             </summary>
         </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.TaskLiftingExpressionVisitor.VisitMethodCall(System.Linq.Expressions.MethodCallExpression)">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
         <member name="M:Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.TaskLiftingExpressionVisitor.VisitLambda``1(System.Linq.Expressions.Expression{``0})">
             <summary>
                 This API supports the Entity Framework Core infrastructure and is not intended to be used
@@ -29530,6 +29582,15 @@
                 Initializes a new instance of the Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.ProjectionExpressionVisitor class.
             </summary>
             <param name="entityQueryModelVisitor"> The entity query model visitor. </param>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.ProjectionExpressionVisitor.VisitMethodCall(System.Linq.Expressions.MethodCallExpression)">
+            <summary>
+                Visits the children of the <see cref="T:System.Linq.Expressions.MethodCallExpression"></see>.
+            </summary>
+            <param name="methodCallExpression">The expression to visit.</param>
+            <returns>
+                The modified expression, if it or any subexpression was modified; otherwise, returns the original expression.
+            </returns>
         </member>
         <member name="M:Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.ProjectionExpressionVisitor.VisitSubQuery(Remotion.Linq.Clauses.Expressions.SubQueryExpression)">
             <summary>
@@ -31036,6 +31097,12 @@
             </summary>
         </member>
         <member name="M:Microsoft.EntityFrameworkCore.Query.Internal.IncludeCompiler.CompileIncludes(Remotion.Linq.QueryModel,System.Boolean,System.Boolean)">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Query.Internal.IncludeCompiler.RewriteCollectionQueries">
             <summary>
                 This API supports the Entity Framework Core infrastructure and is not intended to be used
                 directly from your code. This API may change or be removed in future releases.

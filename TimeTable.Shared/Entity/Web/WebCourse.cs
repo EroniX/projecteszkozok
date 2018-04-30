@@ -1,80 +1,101 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using TimeTableDesigner.Shared.Entity.Domain;
-using TimeTableDesigner.Shared.Enum;
-using TimeTableDesigner.Shared.Helper.Utility;
+﻿///Fájl neve: WebCourse.cs
+///Dátum: 2018. 04. 24.
 
 namespace TimeTableDesigner.Shared.Entity.Web
 {
+    using System.Collections.Generic;
+    using System.ComponentModel;
+    using System.Linq;
+    using TimeTableDesigner.Shared.Entity.Domain;
+    using TimeTableDesigner.Shared.Enum;
+    using TimeTableDesigner.Shared.Helper.Utility;
+
+    /// <summary>
+    /// A WebCourse osztály
+    /// </summary>
     public class WebCourse : IWebEntity
     {
         /// <summary>
-        /// Kurzusnev
+        /// A "Name" adattag (GETTER, SETTER)
+        /// A kurzus nevét tárolja
         /// </summary>
         [DisplayName("Kurzusnév")]
         public string Name { get; set; }
 
         /// <summary>
-        /// Kurzuskod
+        /// Az "Id" adattag (GETTER, SETTER)
+        /// A kurzuskódot tárolja
         /// </summary>
         [DisplayName("Kurzuskód")]
         public string Id { get; set; }
 
         /// <summary>
-        /// Idopont
+        /// A "Time" adattag (GETTER, SETTER)
+        /// Az időpontot tárolja
         /// </summary>
         [DisplayName("Időpont")]
         public CourseTime Time { get; set; }
 
         /// <summary>
-        /// Helyszin
+        /// A "Room" adattag (GETTER, SETTER)
+        /// A helyszínt tárolja
         /// </summary>
         [DisplayName("Helyszín")]
         public string Room { get; set; }
 
         /// <summary>
-        /// Hetek
+        /// A "Weeks" adattag (GETTER, SETTER)
+        /// A heteket tárolja
         /// </summary>
         [DisplayName("Hetek")]
         public IEnumerable<int> Weeks { get; set; }
 
         /// <summary>
-        /// Megj.
+        /// A "Description" adattag (GETTER, SETTER)
+        /// A megjegyzést tárolja
         /// </summary>
         [DisplayName("Megjegyzés")]
         public string Description { get; set; }
 
         /// <summary>
-        /// Oratipus
+        /// A "Type" adattag (GETTER, SETTER)
+        /// Az óratípust tárolja
         /// </summary>
         [DisplayName("Óratípus")]
         public CourseType Type { get; set; }
 
         /// <summary>
-        /// Csop.
+        /// A "Group" adattag (GETTER, SETTER)
+        /// A csoportot tárolja
         /// </summary>
         [DisplayName("Csoport")]
         public int Group { get; set; }
 
         /// <summary>
-        /// Letszam
+        /// A "HeadCount" adattag (GETTER, SETTER)
+        /// A létszámot tárolja
         /// </summary>
         [DisplayName("Létszám")]
         public int HeadCount { get; set; }
 
         /// <summary>
-        /// Ea, Gyak
+        /// A "Number" adattag (GETTER, SETTER)
         /// </summary>
         [DisplayName("Ea, Gyak")]
         public int Number { get; set; }
 
         /// <summary>
-        /// Oktato
+        /// A "Teachers" adattag (GETTER, SETTER)
+        /// Az oktatót/oktatókat tárolja
         /// </summary>
         [DisplayName("Oktató(k)")]
         public IEnumerable<string> Teachers { get; set; }
 
+        /// <summary>
+        /// A függvény, ami létrehoz egy WebCourse objektumot
+        /// </summary>
+        /// <param name="values">Az értékek</param>
+        /// <returns>Az inicializált WebCourse objektum</returns>
         public static WebCourse Create(string[] values)
         {
             var course = new WebCourse();
@@ -82,6 +103,10 @@ namespace TimeTableDesigner.Shared.Entity.Web
             return course;
         }
 
+        /// <summary>
+        /// Az objektum inicializálásáért felelős metódus
+        /// </summary>
+        /// <param name="values">Az értékek</param>
         public void Initialize(string[] values)
         {
             Name = values[0];

@@ -1,22 +1,55 @@
-﻿using System.ComponentModel;
+﻿///Fájl neve: CourseDay.cs
+///Dátum: 2018. 04. 23.
 
 namespace TimeTableDesigner.Shared.Enum
 {
+    using System.ComponentModel;
+
+    /// <summary>
+    /// A CourseDay felsorolási típus
+    /// </summary>
     public enum CourseDay
     {
+        /// <summary>
+        /// Hétfő
+        /// </summary>
         [Description("Hétfo")]
-        Monday = 0,
+        Monday,
+
+        /// <summary>
+        /// Kedd
+        /// </summary>
         [Description("Kedd")]
-        Tuesday = 1,
+        Tuesday,
+
+        /// <summary>
+        /// Szerda
+        /// </summary>
         [Description("Szerda")]
-        Wednesday = 2,
+        Wednesday,
+
+        /// <summary>
+        /// Csütörtök
+        /// </summary>
         [Description("Csütörtök")]
-        Thursday = 3,
+        Thursday,
+
+        /// <summary>
+        /// Péntek
+        /// </summary>
         [Description("Péntek")]
-        Friday = 4, 
+        Friday,
+
+        /// <summary>
+        /// Szombat
+        /// </summary>
         [Description("Szombat")]
-        Saturday = 5,
+        Saturday,
+
+        /// <summary>
+        /// Vasárnap
+        /// </summary>
         [Description("Vasárnap")]
-        Sunday = 6
+        Sunday
     }
 }

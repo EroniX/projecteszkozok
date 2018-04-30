@@ -2,10 +2,10 @@
 
 namespace EroniX.Core.DataAccess
 {
-    public interface IEntityRepository<TEntity> : IRepository<TEntity>
-        where TEntity: class, IEntity
+    public interface IEntityRepository<E> : IRepository<E>
+        where E: class, IEntity
     {
-        TEntity Get(int id, Includes<TEntity> includes = null);
-        TEntity GetSimpleIncludes(int id, string[] includes = null);
+        E Get(int id, Includes<E> includes = null);
+        E GetSimpleIncludes(int id, string[] includes = null);
     }
 }

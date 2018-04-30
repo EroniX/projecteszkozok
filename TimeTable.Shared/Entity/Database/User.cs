@@ -1,57 +1,73 @@
-using EroniX.Core.Domain;
+///Fájl neve: User.cs
+///Dátum: 2018. 04. 24.
 
 namespace TimeTableDesigner.Shared.Entity.Database
 {
+    using EroniX.Core.Domain;
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
 
-    [Table("AspNetUsers")]
-    public partial class User : IEntityWithStringId
+    /// <summary>
+    /// A User osztály
+    /// </summary>
+    [Table("User")]
+    public partial class User : IHaveActive
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        /// <summary>
+        /// A konstruktor, ami létrehoz egy User objektumot
+        /// </summary>
         public User()
         {
-            TimeTable = new HashSet<TimeTable>();
+            TimeTables = new HashSet<TimeTable>();
         }
 
-        [StringLength(450)]
-        public string Id { get; set; }
+        /// <summary>
+        /// Az "Id" adattag (GETTER, SETTER)
+        /// </summary>
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        public int Id { get; set; }
 
-        public int AccessFailedCount { get; set; }
+        /// <summary>
+        /// A "Username" adattag (GETTER, SETTER)
+        /// </summary>
+        [Required]
+        [StringLength(256)]
+        public string Username { get; set; }
 
-        public string ConcurrencyStamp { get; set; }
+        /// <summary>
+        /// A "Password" adattag (GETTER, SETTER)
+        /// </summary>
+        [Required]
+        [StringLength(256)]
+        public string Password { get; set; }
 
+        /// <summary>
+        /// Az "Email" adattag (GETTER, SETTER)
+        /// </summary>
+        [Required]
         [StringLength(256)]
         public string Email { get; set; }
 
-        public bool EmailConfirmed { get; set; }
+        /// <summary>
+        /// A "LastLoginDate" adattag (GETTER, SETTER)
+        /// </summary>
+        public DateTime? LastLoginDate { get; set; }
 
-        public bool LockoutEnabled { get; set; }
+        /// <summary>
+        /// A "RegistrationDate" adattag (GETTER, SETTER)
+        /// </summary>
+        public DateTime RegistrationDate { get; set; }
 
-        public DateTimeOffset? LockoutEnd { get; set; }
+        /// <summary>
+        /// Az "Active" adattag (GETTER, SETTER)
+        /// </summary>
+        public bool Active { get; set; }
 
-        [StringLength(256)]
-        public string NormalizedEmail { get; set; }
-
-        [StringLength(256)]
-        public string NormalizedUserName { get; set; }
-
-        public string PasswordHash { get; set; }
-
-        public string PhoneNumber { get; set; }
-
-        public bool PhoneNumberConfirmed { get; set; }
-
-        public string SecurityStamp { get; set; }
-
-        public bool TwoFactorEnabled { get; set; }
-
-        [StringLength(256)]
-        public string UserName { get; set; }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<TimeTable> TimeTable { get; set; }
+        /// <summary>
+        /// A "TimeTables" adattag (GETTER, SETTER)
+        /// </summary>
+        public virtual ICollection<TimeTable> TimeTables { get; set; }
     }
 }
