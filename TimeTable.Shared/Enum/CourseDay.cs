@@ -5,18 +5,18 @@ namespace TimeTableDesigner.Shared.Enum
     public enum CourseDay
     {
         [Description("Hétfo")]
-        Monday,
+        Monday = 0,
         [Description("Kedd")]
-        Tuesday,
+        Tuesday = 1,
         [Description("Szerda")]
-        Wednesday,
+        Wednesday = 2,
         [Description("Csütörtök")]
-        Thursday,
+        Thursday = 3,
         [Description("Péntek")]
-        Friday, 
+        Friday = 4, 
         [Description("Szombat")]
-        Saturday,
+        Saturday = 5,
         [Description("Vasárnap")]
-        Sunday
+        Sunday = 6
     }
 }

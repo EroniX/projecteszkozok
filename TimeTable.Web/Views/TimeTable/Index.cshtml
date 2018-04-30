@@ -1,106 +1,46 @@
-﻿
+﻿@model IEnumerable<TimeTable>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
-
-<div id="calendar"></div>
-<input type="button" id="a" value="asd" />
-<input type="button" id="r" value="asd" />
+<h2>Órarendek</h2>
+<hr/>
+@Html.ActionLink("Új órarend", "CreateOrUpdate", "TimeTable", null, new { @class = "btn-lg btn-primary" })
+<hr/>
+@if (Model.Any())
+{
+    <table class="table">
+        <tr>
+            <th>Név</th>
+            <th>Szemeszter</th>
+            <th>Felvett kurzusok</th>
+            <th></th>
+        </tr>
+        @foreach (var timeTable in Model)
+        {
+        <tr>
+            <td>@timeTable.Name</td>
+            <td>@timeTable.Semester</td>
+            <td>@timeTable.Course.Count</td>
+            <td>
+                @Html.ActionLink("Megtekintés", "CreateOrUpdate", "TimeTable", new { id = timeTable.Id }, new { @class = "btn btn-primary" })
+                @Html.ActionLink("Törlés", "Delete", "TimeTable", new { id = timeTable.Id }, new {@class = "btn btn-danger"})
+            </td>
+        </tr>
+        }
+    </table>
+}
+else
+{
+    <i>Nincsenek korábbi órarendek.</i>
+}
 
 @section Scripts
 {
     <script type="text/javascript">
-        $(document).ready(function() {
-            $("#a").on("click",
-                function () {
-                    $('#calendar').fullCalendar('renderEvent',
-                        {
-                            id: 'loller',
-                            title: 'asdasd',
-                            start: '2017-07-12T10:30:00',
-                            end: '2017-07-12T12:30:00'
-                        });
-                });
+        $(document).ready(function () {
 
-            $("#r").on("click",
-                function () {
-                    $('#calendar').fullCalendar('removeEvents', 'loller');
-                });
-
-            $('#calendar').fullCalendar({
-                header: {
-                    left: 'prev,next today',
-                    center: 'title',
-
-                    right: 'month,agendaWeek,agendaDay,listWeek'
-                },
-                defaultDate: '2017-07-12',
-                locale: 'hu',
-                navLinks: true, // can click day/week names to navigate views
-                
-                //editable: true,
-                eventLimit: true, // allow "more" link when too many events
-                events: [
-                    {
-                        title: 'All Day Event',
-                        start: '2017-07-01',
-                    },
-                    {
-                        title: 'Long Event',
-                        start: '2017-07-07',
-                        end: '2017-07-10'
-                    },
-                    {
-                        id: 999,
-                        title: 'Repeating Event',
-                        start: '2017-07-09T16:00:00'
-                    },
-                    {
-                        id: 999,
-                        title: 'Repeating Event',
-                        start: '2017-07-16T16:00:00'
-                    },
-                    {
-                        title: 'Conference',
-                        start: '2017-07-11',
-                        end: '2017-07-13'
-                    },
-                    {
-                        title: 'Meeting',
-                        start: '2017-07-12T10:30:00',
-                        end: '2017-07-12T12:30:00'
-                    },
-                    {
-                        title: 'Lunch',
-                        start: '2017-07-12T12:00:00'
-                    },
-                    {
-                        title: 'Meeting',
-                        start: '2017-07-12T14:30:00'
-                    },
-                    {
-                        title: 'Happy Hour',
-                        start: '2017-07-12T17:30:00'
-                    },
-                    {
-                        title: 'Dinner',
-                        start: '2017-07-12T20:00:00'
-                    },
-                    {
-                        title: 'Birthday Party',
-                        start: '2017-07-13T07:00:00'
-                    },
-                    {
-                        title: 'Click for Google',
-                        url: 'http://google.com/',
-                        start: '2017-07-28'
-                    }
-                ]
-            });
-		
         });
     </script>
 }

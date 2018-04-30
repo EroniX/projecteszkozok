@@ -1,0 +1,45 @@
+﻿@model TimeTableDesigner.Web.Models.TimeTableViewModels.TimeTableViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2></h2>
+<div id="calendar"></div>
+<input type="button" id="a" value="asd" />
+<input type="button" id="r" value="asd" />
+@section Scripts
+    {
+    <script type="text/javascript">
+        $(document).ready(function() {
+            //$("#a").on("click",
+            //    function() {
+            //        $('#calendar').fullCalendar('renderEvent',
+            //            {
+            //                id: 'loller',
+            //                title: 'asdasd',
+            //                start: '2017-07-12T10:30:00',
+            //                end: '2017-07-12T12:30:00'
+            //            });
+            //    });
+
+            //$("#r").on("click",
+            //    function() {
+            //        $('#calendar').fullCalendar('removeEvents', 'loller');
+            //    });
+
+            $('#calendar').fullCalendar({
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'month,agendaWeek,agendaDay,listWeek'
+                },
+                defaultView: 'agendaWeek',
+                defaultDate: '@Model.FirstDay.ToString("yyyy-MM-dd")',
+                locale: 'hu',
+                navLinks: true,
+                eventLimit: true
+            });
+        });
+    </script>
+}

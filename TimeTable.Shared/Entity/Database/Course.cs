@@ -15,11 +15,9 @@ namespace TimeTableDesigner.Shared.Entity.Database
 
         [Required]
         [StringLength(128)]
-        public string CourseId { get; set; }
+        public string SubjectName { get; set; }
 
-        [Required]
-        [StringLength(128)]
-        public string CourseNumber { get; set; }
+        public int GroupId { get; set; }
 
         public bool Active { get; set; }
 
