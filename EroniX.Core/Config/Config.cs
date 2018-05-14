@@ -17,6 +17,11 @@ namespace EroniX.Core.Config
             return _nameValueCollection[name];
         }
 
+        public static Config Create(NameValueCollection nameValueCollection)
+        {
+            return new Config(nameValueCollection);
+        }
+
         public static Config Create(IEnumerable<KeyValuePair<string, string>> keyValuePairs)
         {
             var nameValueCollection = new NameValueCollection();

@@ -1,164 +1,418 @@
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.csprojResolveAssemblyReference.cache
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.DataAccess.dll.config
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.DataAccess.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.DataAccess.pdb
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.Win32.Primitives.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\netstandard.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.AppContext.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Collections.Concurrent.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Collections.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Collections.NonGeneric.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Collections.Specialized.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.ComponentModel.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.ComponentModel.EventBasedAsync.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.ComponentModel.Primitives.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.ComponentModel.TypeConverter.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Console.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Data.Common.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Contracts.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Debug.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Diagnostics.FileVersionInfo.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Process.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Diagnostics.StackTrace.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Tools.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Diagnostics.TraceSource.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Tracing.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Drawing.Primitives.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Dynamic.Runtime.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Globalization.Calendars.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Globalization.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Globalization.Extensions.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.IO.Compression.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.IO.Compression.ZipFile.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.IO.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.IO.FileSystem.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.IO.FileSystem.DriveInfo.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.IO.FileSystem.Primitives.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.IO.FileSystem.Watcher.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.IO.IsolatedStorage.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.IO.MemoryMappedFiles.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.IO.Pipes.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.IO.UnmanagedMemoryStream.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Linq.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Linq.Expressions.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Linq.Parallel.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Linq.Queryable.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Net.Http.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Net.NameResolution.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Net.NetworkInformation.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Net.Ping.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Net.Primitives.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Net.Requests.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Net.Security.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Net.Sockets.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Net.WebHeaderCollection.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Net.WebSockets.Client.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Net.WebSockets.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.ObjectModel.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Reflection.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Reflection.Extensions.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Reflection.Primitives.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Resources.Reader.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Resources.ResourceManager.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Resources.Writer.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Runtime.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Runtime.Extensions.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Runtime.Handles.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Runtime.InteropServices.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Runtime.Numerics.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Runtime.Serialization.Formatters.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Runtime.Serialization.Json.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Runtime.Serialization.Primitives.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Runtime.Serialization.Xml.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Security.Claims.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.Algorithms.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.Csp.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.Encoding.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.Primitives.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.X509Certificates.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Security.Principal.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Security.SecureString.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Text.Encoding.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Text.Encoding.Extensions.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Text.RegularExpressions.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Threading.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Threading.Overlapped.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Threading.Tasks.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Threading.Tasks.Parallel.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Threading.Thread.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Threading.ThreadPool.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Threading.Timer.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.ValueTuple.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Xml.ReaderWriter.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Xml.XDocument.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Xml.XmlDocument.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Xml.XmlSerializer.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Xml.XPath.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Xml.XPath.XDocument.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\EntityFramework.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\EroniX.Core.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\HtmlAgilityPack.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.Extensions.Logging.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.Extensions.Options.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Newtonsoft.Json.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Remotion.Linq.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Buffers.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Collections.Immutable.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.ComponentModel.Annotations.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Diagnostics.DiagnosticSource.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Interactive.Async.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Reflection.Metadata.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Security.Principal.Windows.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Text.Encodings.Web.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.Shared.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\NLog.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\EroniX.Core.pdb
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\EroniX.Core.dll.config
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.Shared.pdb
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\EntityFramework.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\HtmlAgilityPack.pdb
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\HtmlAgilityPack.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.Extensions.Logging.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Microsoft.Extensions.Options.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Newtonsoft.Json.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\Remotion.Linq.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Buffers.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Collections.Immutable.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Interactive.Async.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Reflection.Metadata.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Text.Encodings.Web.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\bin\Debug\NLog.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.csproj.CopyComplete
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.pdb
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.DataAccess.dll.config
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.DataAccess.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.DataAccess.pdb
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\netstandard.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.AppContext.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Collections.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Collections.Specialized.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.ComponentModel.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Console.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Data.Common.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Globalization.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.IO.Compression.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.IO.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.IO.FileSystem.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.IO.Pipes.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Linq.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Linq.Expressions.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Linq.Parallel.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Linq.Queryable.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Net.Http.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Net.NameResolution.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Net.Ping.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Net.Primitives.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Net.Requests.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Net.Security.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Net.Sockets.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Net.WebSockets.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.ObjectModel.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Reflection.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Resources.Reader.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Resources.Writer.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Runtime.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Runtime.Handles.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Security.Claims.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Security.Principal.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Security.SecureString.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Text.Encoding.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Threading.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Threading.Tasks.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Threading.Thread.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Threading.Timer.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.ValueTuple.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Xml.XDocument.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Xml.XPath.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\EroniX.Core.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\HtmlAgilityPack.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Buffers.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Collections.Immutable.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.Shared.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\NLog.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\EroniX.Core.pdb
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\EroniX.Core.dll.config
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.Shared.pdb
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\HtmlAgilityPack.xml
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\Newtonsoft.Json.xml
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Buffers.xml
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Collections.Immutable.xml
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Reflection.Metadata.xml
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\bin\Debug\NLog.xml
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.pdb
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.DataAccess.dll.config
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.DataAccess.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.DataAccess.pdb
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\netstandard.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.AppContext.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Collections.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Collections.Specialized.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.ComponentModel.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Console.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Data.Common.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Globalization.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.IO.Compression.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.IO.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.IO.FileSystem.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.IO.Pipes.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Linq.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Linq.Expressions.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Linq.Parallel.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Linq.Queryable.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Net.Http.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Net.NameResolution.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Net.Ping.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Net.Primitives.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Net.Requests.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Net.Security.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Net.Sockets.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Net.WebSockets.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.ObjectModel.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Reflection.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Resources.Reader.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Resources.Writer.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Runtime.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Runtime.Handles.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Security.Claims.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Security.Principal.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Security.SecureString.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Text.Encoding.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Threading.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Threading.Tasks.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Threading.Thread.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Threading.Timer.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.ValueTuple.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Xml.XDocument.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Xml.XPath.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\EroniX.Core.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\HtmlAgilityPack.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Buffers.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Collections.Immutable.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.Shared.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\NLog.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\EroniX.Core.pdb
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\EroniX.Core.dll.config
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.Shared.pdb
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.Shared.dll.config
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\HtmlAgilityPack.xml
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\Newtonsoft.Json.xml
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Buffers.xml
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Collections.Immutable.xml
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Reflection.Metadata.xml
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\bin\Debug\NLog.xml
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.csprojAssemblyReference.cache
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.csproj.CopyComplete
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.pdb
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.DataAccess.dll.config
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.DataAccess.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.DataAccess.pdb
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\netstandard.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.AppContext.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Collections.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Collections.Specialized.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.ComponentModel.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Console.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Data.Common.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Globalization.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.IO.Compression.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.IO.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.IO.FileSystem.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.IO.Pipes.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Linq.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Linq.Expressions.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Linq.Parallel.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Linq.Queryable.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Net.Http.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Net.NameResolution.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Net.Ping.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Net.Primitives.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Net.Requests.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Net.Security.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Net.Sockets.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Net.WebSockets.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.ObjectModel.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Reflection.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Resources.Reader.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Resources.Writer.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Runtime.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Runtime.Handles.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Security.Claims.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Security.Principal.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Security.SecureString.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Text.Encoding.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Threading.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Threading.Tasks.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Threading.Thread.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Threading.Timer.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.ValueTuple.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Xml.XDocument.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Xml.XPath.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\EroniX.Core.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\HtmlAgilityPack.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Buffers.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Collections.Immutable.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.Shared.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\NLog.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\EroniX.Core.pdb
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\EroniX.Core.dll.config
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.Shared.pdb
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.Shared.dll.config
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\HtmlAgilityPack.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\Newtonsoft.Json.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Buffers.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Collections.Immutable.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Reflection.Metadata.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\NLog.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.csprojAssemblyReference.cache
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.csproj.CopyComplete
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\obj\Debug\TimeTableDesigner.DataAccess.pdb

@@ -1,21 +1,64 @@
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\bin\Debug\TimeTableDesigner.Logic.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\bin\Debug\TimeTableDesigner.Logic.pdb
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\bin\Debug\EroniX.Core.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\bin\Debug\TimeTableDesigner.Shared.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\bin\Debug\EntityFramework.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\bin\Debug\NLog.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\bin\Debug\HtmlAgilityPack.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\bin\Debug\EroniX.Core.pdb
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\bin\Debug\EroniX.Core.dll.config
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\bin\Debug\TimeTableDesigner.Shared.pdb
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\bin\Debug\EntityFramework.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\bin\Debug\NLog.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\bin\Debug\HtmlAgilityPack.pdb
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\bin\Debug\HtmlAgilityPack.xml
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.csprojResolveAssemblyReference.cache
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.csproj.CoreCompileInputs.cache
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.csproj.CopyComplete
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.dll
-C:\Users\range\Desktop\Project Eszközök\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.pdb
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\bin\Debug\TimeTableDesigner.Logic.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\bin\Debug\TimeTableDesigner.Logic.pdb
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\bin\Debug\EroniX.Core.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\bin\Debug\TimeTableDesigner.Shared.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\bin\Debug\EntityFramework.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\bin\Debug\NLog.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\bin\Debug\HtmlAgilityPack.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\bin\Debug\EroniX.Core.pdb
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\bin\Debug\EroniX.Core.dll.config
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\bin\Debug\TimeTableDesigner.Shared.pdb
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\bin\Debug\EntityFramework.xml
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\bin\Debug\NLog.xml
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\bin\Debug\HtmlAgilityPack.xml
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.csprojResolveAssemblyReference.cache
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.csproj.CoreCompileInputs.cache
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.dll
+C:\Users\EroniX\Desktop\timetabledesigner\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.pdb
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\bin\Debug\TimeTableDesigner.Logic.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\bin\Debug\TimeTableDesigner.Logic.pdb
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\bin\Debug\EroniX.Core.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\bin\Debug\TimeTableDesigner.Shared.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\bin\Debug\EntityFramework.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\bin\Debug\NLog.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\bin\Debug\HtmlAgilityPack.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\bin\Debug\EroniX.Core.pdb
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\bin\Debug\EroniX.Core.dll.config
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\bin\Debug\TimeTableDesigner.Shared.pdb
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\bin\Debug\TimeTableDesigner.Shared.dll.config
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\bin\Debug\EntityFramework.xml
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\bin\Debug\NLog.xml
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\bin\Debug\HtmlAgilityPack.xml
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.csprojAssemblyReference.cache
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.csproj.CoreCompileInputs.cache
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.csproj.CopyComplete
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.dll
+C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.pdb
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\TimeTableDesigner.Logic.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\TimeTableDesigner.Logic.pdb
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\EroniX.Core.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\TimeTableDesigner.Shared.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\EntityFramework.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\NLog.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\HtmlAgilityPack.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\EroniX.Core.pdb
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\EroniX.Core.dll.config
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\TimeTableDesigner.Shared.pdb
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\TimeTableDesigner.Shared.dll.config
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\EntityFramework.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\NLog.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\HtmlAgilityPack.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.csprojAssemblyReference.cache
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.csproj.CoreCompileInputs.cache
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.csproj.CopyComplete
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.Logic\obj\Debug\TimeTableDesigner.Logic.pdb

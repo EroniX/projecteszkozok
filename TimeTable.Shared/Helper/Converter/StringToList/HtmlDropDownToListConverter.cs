@@ -1,6 +1,8 @@
 ﻿///Fájl neve: HtmlDropDownToListConverter.cs
 ///Dátum: 2018. 04. 23.
 
+using HtmlAgilityPack;
+
 namespace TimeTableDesigner.Shared.Helper.Converter.StringToList
 {
     using EroniX.Core.Audit;

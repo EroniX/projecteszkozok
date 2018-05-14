@@ -1,10 +1,10 @@
 ///Fájl neve: TimeTableContext.cs
 ///Dátum: 2018. 04. 24.
 
+using System.Data.Entity;
+
 namespace TimeTableDesigner.DataAccess.DataContext
 {
-    using Microsoft.EntityFrameworkCore;
-    using System.Data.Entity;
     using TimeTableDesigner.Shared.Entity.Database;
 
     /// <summary>
