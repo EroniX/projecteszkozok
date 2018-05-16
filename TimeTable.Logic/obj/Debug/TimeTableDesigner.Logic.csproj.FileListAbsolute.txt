@@ -51,7 +51,6 @@ C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\HtmlAgilityPack.dll
 C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\EroniX.Core.pdb
 C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\EroniX.Core.dll.config
 C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\TimeTableDesigner.Shared.pdb
-C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\TimeTableDesigner.Shared.dll.config
 C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\EntityFramework.xml
 C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\EroniX\Desktop\pe\TimeTable.Logic\bin\Debug\NLog.xml

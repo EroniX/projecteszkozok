@@ -1068,7 +1068,6 @@ C:\Users\EroniX\Desktop\pe\TimeTable.Web\bin\Debug\net461\TimeTableDesigner.Data
 C:\Users\EroniX\Desktop\pe\TimeTable.Web\bin\Debug\net461\TimeTableDesigner.DataAccess.dll.config
 C:\Users\EroniX\Desktop\pe\TimeTable.Web\bin\Debug\net461\TimeTableDesigner.Logic.pdb
 C:\Users\EroniX\Desktop\pe\TimeTable.Web\bin\Debug\net461\TimeTableDesigner.Shared.pdb
-C:\Users\EroniX\Desktop\pe\TimeTable.Web\bin\Debug\net461\TimeTableDesigner.Shared.dll.config
 C:\Users\EroniX\Desktop\pe\TimeTable.Web\bin\Debug\net461\EroniX.Core.pdb
 C:\Users\EroniX\Desktop\pe\TimeTable.Web\bin\Debug\net461\EroniX.Core.dll.config
 C:\Users\EroniX\Desktop\pe\TimeTable.Web\bin\Debug\net461\HtmlAgilityPack.pdb

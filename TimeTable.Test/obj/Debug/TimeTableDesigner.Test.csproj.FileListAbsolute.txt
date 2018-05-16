@@ -183,10 +183,6 @@ C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Test\bin\Debug\System.Text.Enc
 C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Test\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Test\bin\Debug\TimeTableDesigner.Web.pdb
 C:\Users\EroniX\Desktop\projecteszkozok\TimeTable.Test\bin\Debug\TimeTableDesigner.Web.exe.config
-C:\Users\EroniX\Desktop\pe\TimeTable.Test\obj\Debug\TimeTableDesigner.Test.csprojAssemblyReference.cache
-C:\Users\EroniX\Desktop\pe\TimeTable.Test\obj\Debug\TimeTableDesigner.Test.csproj.CoreCompileInputs.cache
-C:\Users\EroniX\Desktop\pe\TimeTable.Test\obj\Debug\TimeTableDesigner.Test.dll
-C:\Users\EroniX\Desktop\pe\TimeTable.Test\obj\Debug\TimeTableDesigner.Test.pdb
 C:\Users\EroniX\Desktop\pe\TimeTable.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\EroniX\Desktop\pe\TimeTable.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\EroniX\Desktop\pe\TimeTable.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -322,7 +318,6 @@ C:\Users\EroniX\Desktop\pe\TimeTable.Test\bin\Debug\TimeTableDesigner.DataAccess
 C:\Users\EroniX\Desktop\pe\TimeTable.Test\bin\Debug\TimeTableDesigner.DataAccess.dll.config
 C:\Users\EroniX\Desktop\pe\TimeTable.Test\bin\Debug\TimeTableDesigner.Logic.pdb
 C:\Users\EroniX\Desktop\pe\TimeTable.Test\bin\Debug\TimeTableDesigner.Shared.pdb
-C:\Users\EroniX\Desktop\pe\TimeTable.Test\bin\Debug\TimeTableDesigner.Shared.dll.config
 C:\Users\EroniX\Desktop\pe\TimeTable.Test\bin\Debug\TimeTableDesigner.Web.pdb
 C:\Users\EroniX\Desktop\pe\TimeTable.Test\bin\Debug\TimeTableDesigner.Web.exe.config
 C:\Users\EroniX\Desktop\pe\TimeTable.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
@@ -332,4 +327,8 @@ C:\Users\EroniX\Desktop\pe\TimeTable.Test\bin\Debug\EntityFramework.SqlServer.xm
 C:\Users\EroniX\Desktop\pe\TimeTable.Test\bin\Debug\NLog.xml
 C:\Users\EroniX\Desktop\pe\TimeTable.Test\bin\Debug\HtmlAgilityPack.pdb
 C:\Users\EroniX\Desktop\pe\TimeTable.Test\bin\Debug\HtmlAgilityPack.xml
+C:\Users\EroniX\Desktop\pe\TimeTable.Test\obj\Debug\TimeTableDesigner.Test.csprojAssemblyReference.cache
+C:\Users\EroniX\Desktop\pe\TimeTable.Test\obj\Debug\TimeTableDesigner.Test.csproj.CoreCompileInputs.cache
 C:\Users\EroniX\Desktop\pe\TimeTable.Test\obj\Debug\TimeTableDesigner.Test.csproj.CopyComplete
+C:\Users\EroniX\Desktop\pe\TimeTable.Test\obj\Debug\TimeTableDesigner.Test.dll
+C:\Users\EroniX\Desktop\pe\TimeTable.Test\obj\Debug\TimeTableDesigner.Test.pdb

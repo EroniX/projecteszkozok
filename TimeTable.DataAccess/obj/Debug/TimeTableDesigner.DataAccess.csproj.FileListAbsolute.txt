@@ -395,7 +395,6 @@ C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\NLog.dll
 C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\EroniX.Core.pdb
 C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\EroniX.Core.dll.config
 C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.Shared.pdb
-C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\TimeTableDesigner.Shared.dll.config
 C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\EntityFramework.xml
 C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\EroniX\Desktop\pe\TimeTable.DataAccess\bin\Debug\HtmlAgilityPack.pdb
