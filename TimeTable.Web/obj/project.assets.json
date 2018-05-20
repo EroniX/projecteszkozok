@@ -9767,11 +9767,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EroniX\\Desktop\\ASDADQW\\1\\TimeTable.Web\\TimeTableDesigner.Web.csproj",
+      "projectUniqueName": "C:\\Users\\EroniX\\Desktop\\ASDADQW\\2\\TimeTable.Web\\TimeTableDesigner.Web.csproj",
       "projectName": "TimeTableDesigner.Web",
-      "projectPath": "C:\\Users\\EroniX\\Desktop\\ASDADQW\\1\\TimeTable.Web\\TimeTableDesigner.Web.csproj",
+      "projectPath": "C:\\Users\\EroniX\\Desktop\\ASDADQW\\2\\TimeTable.Web\\TimeTableDesigner.Web.csproj",
       "packagesPath": "C:\\Users\\EroniX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EroniX\\Desktop\\ASDADQW\\1\\TimeTable.Web\\obj\\",
+      "outputPath": "C:\\Users\\EroniX\\Desktop\\ASDADQW\\2\\TimeTable.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9790,14 +9790,14 @@
       "frameworks": {
         "net461": {
           "projectReferences": {
-            "C:\\Users\\EroniX\\Desktop\\ASDADQW\\1\\TimeTable.DataAccess\\TimeTableDesigner.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\EroniX\\Desktop\\ASDADQW\\1\\TimeTable.DataAccess\\TimeTableDesigner.DataAccess.csproj"
+            "C:\\Users\\EroniX\\Desktop\\ASDADQW\\2\\TimeTable.DataAccess\\TimeTableDesigner.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\EroniX\\Desktop\\ASDADQW\\2\\TimeTable.DataAccess\\TimeTableDesigner.DataAccess.csproj"
             },
-            "C:\\Users\\EroniX\\Desktop\\ASDADQW\\1\\TimeTable.Logic\\TimeTableDesigner.Logic.csproj": {
-              "projectPath": "C:\\Users\\EroniX\\Desktop\\ASDADQW\\1\\TimeTable.Logic\\TimeTableDesigner.Logic.csproj"
+            "C:\\Users\\EroniX\\Desktop\\ASDADQW\\2\\TimeTable.Logic\\TimeTableDesigner.Logic.csproj": {
+              "projectPath": "C:\\Users\\EroniX\\Desktop\\ASDADQW\\2\\TimeTable.Logic\\TimeTableDesigner.Logic.csproj"
             },
-            "C:\\Users\\EroniX\\Desktop\\ASDADQW\\1\\TimeTable.Shared\\TimeTableDesigner.Shared.csproj": {
-              "projectPath": "C:\\Users\\EroniX\\Desktop\\ASDADQW\\1\\TimeTable.Shared\\TimeTableDesigner.Shared.csproj"
+            "C:\\Users\\EroniX\\Desktop\\ASDADQW\\2\\TimeTable.Shared\\TimeTableDesigner.Shared.csproj": {
+              "projectPath": "C:\\Users\\EroniX\\Desktop\\ASDADQW\\2\\TimeTable.Shared\\TimeTableDesigner.Shared.csproj"
             }
           }
         }

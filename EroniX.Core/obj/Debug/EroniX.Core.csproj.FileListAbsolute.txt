@@ -53,3 +53,17 @@ C:\Users\EroniX\Desktop\ASDADQW\1\EroniX.Core\obj\Debug\EroniX.Core.csproj.CoreC
 C:\Users\EroniX\Desktop\ASDADQW\1\EroniX.Core\obj\Debug\EroniX.Core.csproj.CopyComplete
 C:\Users\EroniX\Desktop\ASDADQW\1\EroniX.Core\obj\Debug\EroniX.Core.dll
 C:\Users\EroniX\Desktop\ASDADQW\1\EroniX.Core\obj\Debug\EroniX.Core.pdb
+C:\Users\EroniX\Desktop\ASDADQW\2\EroniX.Core\bin\Debug\EroniX.Core.dll.config
+C:\Users\EroniX\Desktop\ASDADQW\2\EroniX.Core\bin\Debug\EroniX.Core.dll
+C:\Users\EroniX\Desktop\ASDADQW\2\EroniX.Core\bin\Debug\EroniX.Core.pdb
+C:\Users\EroniX\Desktop\ASDADQW\2\EroniX.Core\bin\Debug\EntityFramework.dll
+C:\Users\EroniX\Desktop\ASDADQW\2\EroniX.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EroniX\Desktop\ASDADQW\2\EroniX.Core\bin\Debug\NLog.dll
+C:\Users\EroniX\Desktop\ASDADQW\2\EroniX.Core\bin\Debug\EntityFramework.xml
+C:\Users\EroniX\Desktop\ASDADQW\2\EroniX.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\EroniX\Desktop\ASDADQW\2\EroniX.Core\bin\Debug\NLog.xml
+C:\Users\EroniX\Desktop\ASDADQW\2\EroniX.Core\obj\Debug\EroniX.Core.csprojAssemblyReference.cache
+C:\Users\EroniX\Desktop\ASDADQW\2\EroniX.Core\obj\Debug\EroniX.Core.csproj.CoreCompileInputs.cache
+C:\Users\EroniX\Desktop\ASDADQW\2\EroniX.Core\obj\Debug\EroniX.Core.csproj.CopyComplete
+C:\Users\EroniX\Desktop\ASDADQW\2\EroniX.Core\obj\Debug\EroniX.Core.dll
+C:\Users\EroniX\Desktop\ASDADQW\2\EroniX.Core\obj\Debug\EroniX.Core.pdb
