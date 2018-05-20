@@ -16,7 +16,7 @@ using TimeTableDesigner.Web;
 namespace TimeTableDesigner.Test
 {
     [TestClass]
-    public class Test
+    public class POC
     {
         [TestMethod]
         public void TimeTableContextTest()

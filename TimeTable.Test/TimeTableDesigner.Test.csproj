@@ -49,8 +49,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Test.cs" />
-    <Compile Include="TimeTest.cs" />
+    <Compile Include="POC.cs" />
     <Compile Include="WebHtmlReaderTest.cs" />
     <Compile Include="HtmlTableToListConverterTest.cs" />
     <Compile Include="HtmlDropDownToListConverterTest.cs" />
